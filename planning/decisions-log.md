@@ -24,3 +24,4 @@
 | 2026-10-17 | Walking-skeleton site live at stationsix.github.io/365-books with the 3 pilots |
 | 2026-10-17 | Repo is the single home: planning moved from Google Drive into planning/; the Drive folder is a frozen backup |
 | 2026-10-17 | Versioned filenames dropped: stable names, edit in place, git keeps history. Dated names only for point-in-time records |
+| 2026-10-17 | Batch 2 (Innovation and Technology) approved as drafted: 30 picks, 5 alternates; Drucker's Innovation and Entrepreneurship takes one of his 2 slots; Prediction Machines kept alongside Power and Prediction; non-US gap (5 of 30) accepted |

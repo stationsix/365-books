@@ -1,0 +1,74 @@
+status,title,author,year,origin,nominator,sources,final,rubric,panel,operator,professor,skeptic,coach,modernist,advocate,inf,dur,dist,prac,ai,read,reason,note
+pick,The Innovator's Dilemma,Clayton M. Christensen,1997,US,Public lists,TB;BOI;JD,4.54,4.75,4.33,5,5,4,3,5,4,5,5,5,4,5,4,,Routed from Strategy (unscored there)
+pick,The Mythical Man-Month,Frederick P. Brooks Jr.,1975,US,Operator,Wildcard,4.24,4.65,3.83,5,4,4,2,5,3,5,5,5,4,5,3,,Brooks's law
+pick,The Design of Everyday Things,Don Norman,1988,US,Claude (canon),K,4.22,4.6,3.83,4,4,4,3,4,4,5,5,5,4,4,4,,
+pick,Innovation and Entrepreneurship,Peter F. Drucker,1985,US,Public lists,BL;SB;BOI;JD,4.17,4.5,3.83,4,5,4,3,4,3,5,5,5,4,4,3,,Seven sources of innovation
+pick,Prediction Machines,"Ajay Agrawal, Joshua Gans, Avi Goldfarb",2018,non-US,Claude (canon),K,4.07,4.3,3.83,4,4,4,2,5,4,4,4,5,4,5,4,,Routed from Strategy; same authors as Power and Prediction
+pick,Competing Against Luck,"Clayton M. Christensen, Taddy Hall, Karen Dillon, David S. Duncan",2016,US,Public lists,JD,4.05,4.1,4.0,5,4,3,3,4,5,4,3,4,5,5,4,,Jobs to be done; routed from Strategy
+pick,Co-Intelligence,Ethan Mollick,2024,US,Modernist,Wildcard (B1),4.02,4.2,3.83,4,3,3,3,5,5,4,3,4,5,5,5,,Carried from Batch 1
+pick,Chip War,Chris Miller,2022,US,Modernist,Wildcard (B1),3.96,4.1,3.83,3,4,4,2,5,5,4,4,4,3,5,5,,Carried from Batch 1
+pick,The Master Switch,Tim Wu,2010,US,Claude (canon),K,3.91,4.15,3.67,3,4,4,2,5,4,4,4,5,3,5,4,,The Cycle of information empires
+pick,Inspired,Marty Cagan,2008,US,Operator,Wildcard,3.91,4.15,3.67,5,3,3,3,4,4,4,4,4,5,4,4,,Cite the 2017 second edition
+pick,The Idea Factory,Jon Gertner,2012,US,Public lists,TB,3.89,3.95,3.83,3,4,4,3,4,5,4,4,4,3,4,5,,Bell Labs
+pick,The Second Machine Age,"Erik Brynjolfsson, Andrew McAfee",2014,US,Claude (canon),K,3.88,4.25,3.5,3,4,3,2,5,4,5,4,4,3,5,4,,
+pick,Weapons of Math Destruction,Cathy O'Neil,2016,US,Skeptic,Wildcard,3.83,4.0,3.67,3,4,4,3,4,4,4,4,4,3,5,4,,
+pick,Where Good Ideas Come From,Steven Johnson,2010,US,Public lists,TB;BL;JD,3.81,3.95,3.67,3,3,3,4,4,5,4,4,4,3,4,5,,
+pick,Diffusion of Innovations,Everett M. Rogers,1962,US,Public lists,JD,3.79,4.25,3.33,3,5,4,2,4,2,5,5,5,3,4,2,,Adoption curve
+pick,Change by Design,Tim Brown,2009,mixed,Public lists,TB;BL,3.75,4.0,3.5,4,3,3,4,3,4,4,4,4,4,4,4,,Design thinking (IDEO)
+pick,Democratizing Innovation,Eric von Hippel,2005,US,Professor,Wildcard,3.73,3.8,3.67,3,5,4,2,5,3,3,4,5,3,5,3,,Free online from MIT
+pick,Lead and Disrupt,"Charles O'Reilly, Michael Tushman",2016,US,Professor,Wildcard (B1),3.73,3.8,3.67,4,5,4,2,4,3,3,4,4,4,5,3,,Carried from Batch 1
+pick,Build,Tony Fadell,2022,US,Operator,Wildcard,3.71,3.75,3.67,5,2,3,4,3,5,4,3,3,5,3,5,,
+pick,Open Innovation,Henry Chesbrough,2003,US,Professor,Wildcard,3.7,3.9,3.5,3,5,4,2,4,3,4,4,5,3,4,3,,
+pick,The Innovators,Walter Isaacson,2014,US,Reader's Advocate,Wildcard,3.66,3.65,3.67,3,3,4,3,4,5,4,4,3,2,4,5,,"Group history, not a single memoir"
+pick,Loonshots,Safi Bahcall,2019,US,Public lists,TB;JD,3.65,3.8,3.5,4,3,3,3,4,4,4,3,4,4,4,4,,
+pick,Technological Revolutions and Financial Capital,Carlota Perez,2002,non-US,Professor,Wildcard,3.64,3.95,3.33,3,5,4,1,5,2,4,4,5,3,5,2,,Surges and bubbles
+pick,AI Superpowers,Kai-Fu Lee,2018,non-US,Public lists,VD,3.62,3.9,3.33,3,3,3,2,4,5,4,3,4,3,5,5,,
+pick,The Cathedral and the Bazaar,Eric S. Raymond,1999,US,Claude (canon),K,3.62,3.9,3.33,3,4,4,2,4,3,4,4,5,3,4,3,,Free online
+pick,Continuous Discovery Habits,Teresa Torres,2021,US,Modernist,Wildcard,3.6,3.7,3.5,5,3,3,2,4,4,3,3,4,5,4,4,,
+pick,Hello World,Hannah Fry,2018,non-US,Public lists,BR,3.58,3.5,3.67,3,3,4,3,4,5,3,3,3,3,5,5,,
+pick,AI Snake Oil,"Arvind Narayanan, Sayash Kapoor",2024,mixed,Skeptic,Wildcard,3.58,3.5,3.67,3,4,5,2,4,4,3,2,4,4,5,4,,Just past the 2-year line (Sept 2024)
+pick,Innovation: The Attacker's Advantage,Richard N. Foster,1986,US,Professor,Wildcard,3.58,3.65,3.5,3,5,4,2,4,3,3,4,5,3,4,3,,S-curves
+pick,The Shock of the Old,David Edgerton,2006,non-US,Skeptic,Wildcard,3.48,3.45,3.5,2,5,5,2,4,3,3,3,5,2,5,3,,
+alternate,The Innovator's Solution,"Clayton M. Christensen, Michael E. Raynor",2003,mixed,Public lists,TB;JD,3.78,3.9,3.67,4,5,4,2,4,3,4,4,4,4,4,3,Christensen author cap (Dilemma and Competing Against Luck hold his 2 slots),
+alternate,Sprint,"Jake Knapp, John Zeratsky, Braden Kowitz",2016,US,Operator,Wildcard,3.62,3.9,3.33,5,2,2,3,3,5,4,3,4,5,3,5,Lost the debate to Continuous Discovery Habits (4 to 2),
+alternate,The Soul of a New Machine,Tracy Kidder,1981,US,Claude (canon),K,3.52,3.7,3.33,3,3,4,3,3,4,4,5,3,2,3,5,Lost the balance check to Hello World,Narrative nonfiction
+alternate,The Myths of Innovation,Scott Berkun,2007,US,Public lists,SB;JD,3.5,3.5,3.5,3,3,4,3,3,5,3,3,4,3,4,5,Lost the last slot to The Shock of the Old,
+alternate,Working in Public,Nadia Eghbal,2020,US,Modernist,Wildcard (B1),3.44,3.55,3.33,2,4,4,2,5,3,2,4,5,3,5,3,Lost the open-source slot to The Cathedral and the Bazaar (4 to 2),Carried from Batch 1
+routed,"Creativity, Inc.","Ed Catmull, Amy Wallace",2014,US,Mindset Coach,Wildcard;JD,3.89,3.95,3.83,4,3,3,5,3,5,4,4,4,4,3,5,"Route to Management, Teams and Culture",
+routed,Range,David Epstein,2019,US,Mindset Coach,Wildcard,3.88,3.75,4.0,3,3,4,5,4,5,4,3,4,3,4,5,Route to Mindset for Builders,
+routed,Originals,Adam Grant,2016,US,Mindset Coach,Wildcard,3.39,3.45,3.33,3,2,2,5,3,5,4,3,3,3,3,5,Route to Mindset for Builders,
+routed,Think Like a Rocket Scientist,Ozan Varol,2020,mixed,Mindset Coach,Wildcard,3.32,3.3,3.33,3,2,2,5,3,5,3,2,3,4,4,5,Route to Mindset for Builders,
+cut,"Machine, Platform, Crowd","Andrew McAfee, Erik Brynjolfsson",2017,US,Claude (canon),K,3.65,3.8,3.5,4,3,3,2,5,4,4,3,3,4,5,4,One Brynjolfsson and McAfee book; overlaps Platform Revolution,
+cut,Escaping the Build Trap,Melissa Perri,2018,US,Reader's Advocate,Wildcard,3.6,3.7,3.5,5,3,3,2,4,4,3,3,4,5,4,4,Overlaps Inspired,
+cut,Ideaflow,"Jeremy Utley, Perry Klebahn",2022,US,Reader's Advocate,Wildcard,3.48,3.45,3.5,4,2,2,4,4,5,3,2,3,5,4,5,Below cutoff; overlaps Where Good Ideas Come From,
+cut,The Nature of Technology,W. Brian Arthur,2009,mixed,Professor,Wildcard,3.48,3.45,3.5,2,5,4,2,5,3,3,3,5,2,5,3,Below cutoff,
+cut,Power and Progress,"Daron Acemoglu, Simon Johnson",2023,mixed,Skeptic,Wildcard,3.44,3.55,3.33,2,5,4,2,4,3,4,3,4,2,5,3,Below cutoff,
+cut,How Innovation Works,Matt Ridley,2020,non-US,Public lists,TB,3.42,3.35,3.5,3,3,3,3,4,5,3,3,3,3,4,5,Below cutoff,
+cut,The Art of Innovation,"Tom Kelley, Jonathan Littman",2001,US,Public lists,TB;JD;SB,3.42,3.5,3.33,4,3,3,3,3,4,4,3,3,4,3,4,One IDEO book (Change by Design),IDEO
+cut,Creative Confidence,"Tom Kelley, David Kelley",2013,US,Public lists,JD,3.42,3.5,3.33,3,2,2,5,3,5,3,3,3,4,4,5,One IDEO book (Change by Design),IDEO
+cut,The Inevitable,Kevin Kelly,2016,US,Claude (canon),K,3.42,3.5,3.33,2,3,3,3,5,4,4,3,3,2,5,4,Below cutoff,
+cut,Ten Types of Innovation,"Larry Keeley, Ryan Pikkel, Brian Quinn, Helen Walters",2013,US,Public lists,JD,3.36,3.55,3.17,4,3,3,2,3,4,3,3,4,5,3,4,Below cutoff,
+cut,The Three-Box Solution,Vijay Govindarajan,2016,US,Public lists,JD,3.36,3.55,3.17,4,3,3,2,3,4,3,3,4,4,4,4,Below cutoff; overlaps Lead and Disrupt,
+cut,Human + Machine,"Paul R. Daugherty, H. James Wilson",2018,US,Public lists,BR,3.36,3.55,3.17,4,3,2,2,4,4,3,3,3,4,5,4,Below cutoff,
+cut,The Business Model Navigator,"Oliver Gassmann, Karolin Frankenberger, Michaela Csik",2014,non-US,Public lists,JD,3.28,3.4,3.17,4,3,3,2,3,4,3,3,3,5,3,4,Overlaps Business Model Generation (Strategy),
+cut,Dual Transformation,"Scott D. Anthony, Clark G. Gilbert, Mark W. Johnson",2017,US,Public lists,JD,3.23,3.3,3.17,4,3,3,2,4,3,3,3,3,4,4,3,Below cutoff; overlaps Lead and Disrupt,
+cut,The Coming Wave,"Mustafa Suleyman, Michael Bhaskar",2023,non-US,Modernist,Wildcard,3.23,3.3,3.17,2,3,3,2,5,4,4,2,3,2,5,4,Below cutoff,
+cut,The Technology Trap,Carl Benedikt Frey,2019,non-US,Claude (canon),K,3.23,3.3,3.17,2,4,4,2,4,3,3,3,4,2,5,3,Below cutoff,
+cut,The Innovator's DNA,"Jeff Dyer, Hal Gregersen, Clayton M. Christensen",2011,US,Public lists,JD,3.21,3.25,3.17,3,3,2,4,3,4,3,3,3,4,3,4,Christensen author cap,
+cut,Thinkertoys,Michael Michalko,1991,US,Public lists,SB,3.14,3.45,2.83,3,2,2,4,2,4,3,4,3,5,2,4,Below cutoff,
+cut,The Age of Surveillance Capitalism,Shoshana Zuboff,2019,US,Claude (canon),K,3.14,3.45,2.83,2,4,3,2,4,2,4,3,4,2,5,2,Below cutoff,Long and dense
+cut,The Ten Faces of Innovation,"Tom Kelley, Jonathan Littman",2005,US,Public lists,TB;JD,3.12,3.25,3.0,3,2,2,4,3,4,3,3,3,4,3,4,One IDEO book (Change by Design),IDEO
+cut,The Alchemy of Growth,"Mehrdad Baghai, Stephen Coley, David White",1999,mixed,Public lists,JD,3.08,3.15,3.0,3,4,3,2,3,3,3,3,4,3,3,3,Below cutoff,Three horizons
+cut,Design-Driven Innovation,Roberto Verganti,2009,non-US,Public lists,SB,3.08,3.15,3.0,3,4,3,2,3,3,3,3,4,3,3,3,Below cutoff,
+cut,This Is Service Design Thinking,"Marc Stickdorn, Jakob Schneider",2010,non-US,Public lists,BOI,3.07,3.3,2.83,3,3,3,2,3,3,3,3,4,4,3,3,Below cutoff,
+cut,Exponential Organizations,"Salim Ismail, Michael S. Malone, Yuri van Geest",2014,mixed,Claude (canon),K,2.94,3.05,2.83,3,2,2,3,4,3,3,2,3,3,4,4,Below cutoff,
+cut,Genius Makers,Cade Metz,2021,US,Claude (canon),K,2.92,2.85,3.0,2,2,3,2,4,5,3,2,2,2,4,5,Below cutoff,
+cut,The Corporate Startup,"Tendayi Viki, Dan Toma, Esther Gons",2017,non-US,Public lists,JD,2.89,2.95,2.83,4,2,2,2,3,4,2,2,3,5,3,4,Below cutoff,
+cut,Lead from the Future,"Mark W. Johnson, Josh Suskewicz",2020,US,Public lists,JD,2.84,2.85,2.83,3,3,2,2,4,3,2,2,3,4,4,3,Below cutoff,
+cut,HBR's 10 Must Reads on Innovation,Harvard Business Review,2013,US,Public lists,TB,2.84,2.85,2.83,3,3,3,2,3,3,3,3,2,3,3,3,Below cutoff,Anthology
+cut,Dealing with Darwin,Geoffrey A. Moore,2005,US,Public lists,JD,2.83,3.0,2.67,3,3,3,2,2,3,3,3,3,3,3,3,Below cutoff,
+cut,The Age of AI,"Henry A. Kissinger, Eric Schmidt, Daniel Huttenlocher",2021,US,Claude (canon),K,2.81,2.95,2.67,2,3,2,2,4,3,3,2,3,2,5,3,Below cutoff,
+cut,The Innovator's Method,"Nathan Furr, Jeff Dyer",2014,US,Public lists,JD,2.77,2.7,2.83,3,3,3,2,3,3,2,2,3,4,3,3,Below cutoff,
+cut,The Future Is Faster Than You Think,"Peter H. Diamandis, Steven Kotler",2020,US,Public lists,JD,2.62,2.75,2.5,2,1,1,3,4,4,3,2,2,2,4,4,Below cutoff,
+cut,They All Laughed,Ira Flatow,1992,US,Public lists,SB,2.58,2.5,2.67,2,2,3,3,2,4,2,3,2,2,2,5,Below cutoff,
+cut,AIQ,"Nick Polson, James Scott",2018,US,Public lists,VD,2.58,2.5,2.67,2,2,3,2,3,4,2,2,2,2,4,4,Below cutoff,
