@@ -1,0 +1,68 @@
+status,title,author,year,origin,nominator,sources,final,rubric,panel,operator,professor,skeptic,coach,modernist,advocate,inf,dur,dist,prac,ai,read,reason,note
+pick,Mindset,Carol S. Dweck,2006,US,Public lists,SF;AC,4.59,4.85,4.33,4,4,3,5,5,5,5,5,5,4,5,5,,Growth vs fixed mindset
+pick,Flow,Mihaly Csikszentmihalyi,1990,mixed,Public lists,SF;MR,4.33,4.5,4.17,3,5,4,5,5,3,5,5,5,3,5,3,,Optimal experience
+pick,Man's Search for Meaning,Viktor E. Frankl,1946,non-US,Public lists,SF;MR,4.31,4.45,4.17,3,4,4,5,4,5,5,5,5,3,4,4,,Logotherapy
+pick,So Good They Can't Ignore You,Cal Newport,2012,US,Operator,Wildcard,4.28,4.55,4.0,5,3,4,3,4,5,4,4,5,5,5,5,,Career capital over passion
+pick,Working Identity,Herminia Ibarra,2003,mixed,Modernist,Wildcard,4.27,4.2,4.33,4,5,4,4,5,4,3,4,5,5,5,4,,Career reinvention by doing
+pick,The 7 Habits of Highly Effective People,Stephen R. Covey,1989,US,Public lists,SF;MR,4.21,4.6,3.83,4,3,3,5,3,5,5,5,4,5,4,4,,Character ethic
+pick,Peak,"Anders Ericsson, Robert Pool",2016,mixed,Skeptic,Wildcard,4.11,4.05,4.17,4,4,4,4,5,4,3,4,5,4,5,4,,"Deliberate practice, from the source"
+pick,Emotional Intelligence,Daniel Goleman,1995,US,Professor,Wildcard,4.09,4.35,3.83,4,4,3,5,4,3,5,5,5,3,4,3,,Self-awareness and self-regulation
+pick,The Scout Mindset,Julia Galef,2021,US,Skeptic,Wildcard,4.09,3.85,4.33,4,4,5,4,5,4,3,3,5,4,5,4,,Seeing what is true
+pick,Letters from a Stoic,Seneca,65,non-US,Claude (canon),K,4.02,4.2,3.83,4,3,3,5,4,4,4,5,4,4,4,4,,Stoic practice
+pick,The Inner Game of Tennis,W. Timothy Gallwey,1974,US,Mindset Coach,Wildcard,4.01,4.35,3.67,4,3,3,5,3,4,4,5,5,4,4,4,,Self 1 and Self 2; root of modern coaching
+pick,Meditations,Marcus Aurelius,180,non-US,Public lists,SF;AC,4.01,4.35,3.67,4,3,3,5,3,4,5,5,4,4,4,3,,Stoic self-command
+pick,Learned Optimism,Martin E. P. Seligman,1990,US,Professor,Wildcard,3.96,4.1,3.83,3,5,4,5,3,3,4,5,5,4,3,3,,Explanatory style
+pick,The War of Art,Steven Pressfield,2002,US,Public lists,SF,3.88,4.1,3.67,4,2,2,5,4,5,4,4,4,4,4,5,,Resistance
+pick,Grit,Angela Duckworth,2016,US,Public lists,SF;AC,3.88,4.1,3.67,4,3,2,5,3,5,4,4,4,4,4,5,,Passion plus perseverance
+pick,Range,David Epstein,2019,US,Mindset Coach,Wildcard,3.88,3.75,4.0,3,3,4,5,4,5,4,3,4,3,4,5,,Carried from Batch 2
+pick,Black Box Thinking,Matthew Syed,2015,non-US,Skeptic,Wildcard,3.83,3.65,4.0,4,3,4,4,4,5,3,3,4,4,4,5,,Learning from failure
+pick,Ultralearning,Scott H. Young,2019,non-US,Modernist,Wildcard,3.76,3.85,3.67,4,2,3,4,5,4,3,3,4,5,5,4,,Aggressive self-directed learning
+pick,Quiet,Susan Cain,2012,US,Public lists,SF;MR,3.73,3.95,3.5,3,3,3,4,3,5,4,4,5,3,3,5,,Introversion at work
+pick,The 100-Year Life,"Lynda Gratton, Andrew J. Scott",2016,non-US,Modernist,Wildcard,3.69,3.55,3.83,3,4,4,3,5,4,3,3,4,3,5,4,,Multi-stage lives
+pick,Steal Like an Artist,Austin Kleon,2012,US,Public lists,Routed from Innovation,3.67,3.85,3.5,3,2,2,4,5,5,3,4,3,4,5,5,,Creativity as remix
+pick,Designing Your Life,"Bill Burnett, Dave Evans",2016,US,Reader's Advocate,Wildcard,3.66,3.65,3.67,4,3,3,4,3,5,3,3,4,5,3,5,,Design thinking for careers
+pick,The Infinite Game,Simon Sinek,2019,US,Mindset Coach,Wildcard,3.64,3.95,3.33,3,2,2,5,3,5,4,4,4,3,4,5,,Carried from Batch 1
+pick,Daring Greatly,Brene Brown,2012,US,Public lists,SF;MR,3.6,3.7,3.5,3,3,3,5,3,4,4,4,4,3,3,4,,Vulnerability
+pick,Emotional Agility,Susan David,2016,mixed,Mindset Coach,Wildcard,3.45,3.4,3.5,3,3,3,5,3,4,3,3,4,4,3,4,,Unhooking from thoughts
+pick,The Chimp Paradox,Steve Peters,2012,non-US,Mindset Coach,Wildcard,3.42,3.5,3.33,3,2,2,5,3,5,3,3,4,4,3,5,,Managing the emotional brain
+pick,Mastery,George Leonard,1991,US,Mindset Coach,Wildcard,3.42,3.5,3.33,3,2,3,5,3,4,2,4,4,4,4,4,,Loving the plateau
+pick,Originals,Adam Grant,2016,US,Mindset Coach,Wildcard,3.39,3.45,3.33,3,2,2,5,3,5,4,3,3,3,3,5,,Carried from Batch 2
+pick,The Upside of Stress,Kelly McGonigal,2015,US,Claude (canon),K,3.37,3.4,3.33,3,3,3,4,3,4,3,3,4,4,3,4,,Stress mindset
+pick,Think Like a Rocket Scientist,Ozan Varol,2020,mixed,Mindset Coach,Wildcard,3.32,3.3,3.33,3,2,2,5,3,5,3,2,3,4,4,5,,Carried from Batch 2
+pick,Who Moved My Cheese?,Spencer Johnson,1998,US,Public lists,SF;AC,3.31,3.95,2.67,3,1,1,3,4,4,4,4,3,3,5,5,,Business fable on change
+pick,An Astronaut's Guide to Life on Earth,Chris Hadfield,2013,non-US,Public lists,MR,3.3,3.1,3.5,4,2,3,4,3,5,2,3,3,4,3,5,,Sweating the small stuff
+pick,The Art of Possibility,"Rosamund Stone Zander, Benjamin Zander",2000,US,Mindset Coach,Wildcard,3.29,3.4,3.17,3,2,2,5,3,4,3,3,4,4,3,4,,Reframing practices
+pick,Do Hard Things,Steve Magness,2022,US,Public lists,PP,3.23,2.95,3.5,3,3,4,4,3,4,2,2,4,4,3,4,,Evidence-based toughness
+pick,The Courage to Be Disliked,"Ichiro Kishimi, Fumitake Koga",2013,non-US,Reader's Advocate,Wildcard,3.12,3.25,3.0,2,2,2,5,3,4,3,3,4,3,3,4,,Adlerian psychology as dialogue
+alternate,The Obstacle Is the Way,Ryan Holiday,2014,US,Public lists,SF;AC,3.65,3.8,3.5,4,2,2,5,3,5,4,4,3,4,3,5,Third Stoic book; the panel kept the two primary sources (4 to 2),Applied Stoicism
+alternate,Outliers,Malcolm Gladwell,2008,mixed,Public lists,SF,3.54,3.9,3.17,3,3,2,3,3,5,5,4,4,2,3,5,"Peak covers deliberate practice from the source and corrects the 10,000-hour reading",Success as context and practice
+alternate,Finite and Infinite Games,James P. Carse,1986,US,Mindset Coach,Wildcard,3.27,3.7,2.83,1,3,3,5,3,2,3,5,5,2,4,3,Lost the infinite-game slot to The Infinite Game (5 to 1),Carried from Batch 1
+alternate,Resilience: The Science of Mastering Life's Greatest Challenges,"Steven M. Southwick, Dennis S. Charney",2012,US,Public lists,PP,3.19,3.05,3.33,3,4,4,4,2,3,2,3,4,4,3,3,Below cutoff; strongest research-led resilience book,Ten resilience factors
+alternate,Self-Reliance,Ralph Waldo Emerson,1841,US,Professor,Wildcard,3.19,3.55,2.83,2,3,3,4,3,2,3,5,4,2,4,3,Below cutoff; an essay rather than a book-length framework,Nonconformity essay
+routed,Four Thousand Weeks,Oliver Burkeman,2021,non-US,Modernist,Wildcard,3.74,3.65,3.83,3,3,4,4,4,5,3,3,4,4,4,5,"Route to Habits, Focus and Performance",Finitude and time
+cut,Talent Is Overrated,Geoff Colvin,2008,US,Public lists,AC,3.37,3.4,3.33,3,3,3,4,3,4,3,3,3,4,4,4,Overlaps Peak,Deliberate practice for business
+cut,Ego Is the Enemy,Ryan Holiday,2016,US,Operator,Wildcard,3.26,3.35,3.17,4,2,2,4,3,4,3,3,3,4,3,5,Below cutoff; overlaps The Obstacle Is the Way,Ego at each stage
+cut,Mastery,Robert Greene,2012,US,Public lists,SF,3.17,3.35,3.0,3,2,2,4,4,3,3,4,3,3,4,3,Overlaps Peak and Leonard's Mastery,Apprenticeship to mastery
+cut,The Happiness Advantage,Shawn Achor,2010,US,Claude (canon),K,3.17,3.35,3.0,3,2,2,4,3,4,3,3,3,4,3,5,Below cutoff,Positive psychology at work
+cut,The Talent Code,Daniel Coyle,2009,US,Claude (canon),K,3.12,3.25,3.0,3,2,2,4,3,4,3,3,3,4,3,4,Overlaps Peak,Deep practice
+cut,Can't Hurt Me,David Goggins,2018,US,Public lists,SF;PP,3.06,3.3,2.83,3,1,2,5,2,4,4,3,3,3,2,5,Below cutoff,Callusing the mind
+cut,Self-Compassion,Kristin Neff,2011,US,Claude (canon),K,3.05,3.1,3.0,2,3,3,5,2,3,3,3,4,3,2,4,Below cutoff,Self-kindness research
+cut,Option B,"Sheryl Sandberg, Adam Grant",2017,US,Claude (canon),K,2.98,2.95,3.0,3,2,3,4,2,4,3,3,3,3,2,4,Below cutoff; Adam Grant's slot goes to Originals,Resilience after loss
+cut,Big Magic,Elizabeth Gilbert,2015,US,Reader's Advocate,Wildcard,2.94,3.2,2.67,2,1,2,4,3,4,3,3,3,3,3,5,Below cutoff,Creative living beyond fear
+cut,The Four Agreements,Don Miguel Ruiz,1997,non-US,Public lists,SF,2.92,3.5,2.33,2,1,1,4,2,4,4,4,3,3,2,5,Below cutoff,Toltec code
+cut,The Gifts of Imperfection,Brene Brown,2010,US,Claude (canon),K,2.89,2.95,2.83,2,2,3,4,2,4,3,3,3,3,2,4,Second Brown; overlaps Daring Greatly,Wholehearted living
+cut,The Subtle Art of Not Giving a F*ck,Mark Manson,2016,US,Public lists,SF,2.81,3.3,2.33,2,1,2,3,2,4,4,3,3,3,2,5,Below cutoff,Choosing what to care about
+cut,12 Rules for Life,Jordan B. Peterson,2018,non-US,Public lists,SF,2.71,3.1,2.33,2,2,2,3,2,3,4,3,3,3,2,3,Below cutoff; weak business angle,Order and responsibility
+cut,Think and Grow Rich,Napoleon Hill,1937,US,Public lists,SF;MR,2.71,3.6,1.83,2,1,1,4,1,2,5,5,3,2,2,3,Below cutoff; core claims about its sources can't be confirmed,Burning desire
+cut,The Book of Five Rings,Miyamoto Musashi,1645,non-US,Claude (canon),K,2.7,2.9,2.5,2,2,2,4,2,3,3,4,3,2,2,3,Below cutoff,Carried from Batch 1
+cut,Feel the Fear and Do It Anyway,Susan Jeffers,1987,US,Claude (canon),K,2.67,3.0,2.33,2,1,1,4,2,4,3,4,2,3,2,4,Below cutoff,Acting despite fear
+cut,Awaken the Giant Within,Tony Robbins,1991,US,Public lists,SF;MR,2.66,3.15,2.17,2,1,1,4,2,3,4,4,2,3,2,3,Below cutoff,State management
+cut,Make Your Bed,William H. McRaven,2017,US,Claude (canon),K,2.65,2.8,2.5,3,1,1,4,2,4,2,3,2,4,2,5,Below cutoff,Ten SEAL life lessons
+cut,The Success Principles,Jack Canfield,2005,US,Public lists,MR,2.64,2.95,2.33,3,1,1,4,2,3,3,3,2,4,2,4,Below cutoff,Principles compendium
+cut,Psycho-Cybernetics,Maxwell Maltz,1960,US,Claude (canon),K,2.61,3.05,2.17,2,1,1,4,2,3,3,4,3,3,2,3,Below cutoff,Self-image
+cut,The Magic of Thinking Big,David J. Schwartz,1959,US,Public lists,SF,2.58,3.0,2.17,3,1,1,4,1,3,3,4,2,3,2,4,Below cutoff,Belief and goals
+cut,The Power of Now,Eckhart Tolle,1997,non-US,Public lists,SF;MR,2.58,3.15,2.0,1,1,1,4,2,3,4,4,3,2,2,3,Below cutoff; weak business angle,Presence
+cut,Failing Forward,John C. Maxwell,2000,US,Public lists,MR,2.48,2.8,2.17,3,1,1,3,2,3,3,3,2,3,2,4,Below cutoff,Failure as stepping stone
+cut,The Power of Positive Thinking,Norman Vincent Peale,1952,US,Public lists,MR,2.41,3.15,1.67,2,1,1,3,1,2,4,4,3,2,2,3,Below cutoff,Faith and optimism
+cut,Unbeatable Mind,Mark Divine,2014,US,Public lists,PP,2.29,2.25,2.33,3,1,1,4,2,3,2,2,2,3,2,3,Below cutoff,SEAL mental training
+cut,You Are a Badass,Jen Sincero,2013,US,Public lists,SF;MR,2.24,2.65,1.83,2,1,1,3,1,3,3,3,2,3,1,4,Below cutoff,Pep talk
