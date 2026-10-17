@@ -21,5 +21,6 @@ Live: https://stationsix.github.io/365-books/ (deploys on every push to `main`).
 
 ## Next
 - Batch 1 (Strategy): summarize the remaining 27 picks in rank order.
-- Batch 2 selection: Innovation and Technology.
+- Batch 2 (Innovation and Technology): selection approved. Ranks 1 to 3 verified (Innovator's Dilemma, Mythical Man-Month, Design of Everyday Things); continue in rank order.
+- Batch 3 selection: next theme to be chosen.
 - Site: progress logging via GitHub Issue form + Action, Pagefind search, Amazon affiliate tag (after ~20 summaries), custom domain once there's content.
