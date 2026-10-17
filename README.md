@@ -29,7 +29,7 @@ Built with [Astro](https://astro.build) and deployed to GitHub Pages by GitHub A
 
 ## Adding a book
 
-Every summary follows `00_context/2026-10-16_365books_summary-template_v02.md` in the Drive project folder.
+Every summary follows `planning/summary-template.md`.
 
 1. Copy the approved summary into `src/content/books/<slug>.md`.
 2. Run `npm run build`. It fails, naming the file, if:
@@ -40,4 +40,4 @@ Every summary follows `00_context/2026-10-16_365books_summary-template_v02.md` i
 
 If you change `src/plugins/rehype-book.mjs`, delete `node_modules/.astro` before building, because Astro caches rendered markdown.
 
-Planning, drafts and verification notes live in the 365_Books_Project Google Drive folder, not here.
+Planning lives in `planning/`: decisions log, design system, summary template, selection batches and verification notes. Astro ignores it, so it never reaches the site.

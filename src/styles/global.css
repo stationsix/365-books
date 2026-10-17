@@ -1,5 +1,5 @@
-/* 365 Books global styles. Tokens come from
-   00_context/2026-10-16_365books_tokens_v01.css (Terminal Ledger · Circuit).
+/* 365 Books global styles. These tokens are the live copy of the design
+   system in planning/design-system.md (Terminal Ledger · Circuit).
    The Google Fonts import lives in the layout <head> instead of here. */
 
 :root {

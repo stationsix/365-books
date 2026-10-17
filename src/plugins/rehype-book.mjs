@@ -208,7 +208,7 @@ function scorecard(nodes) {
   return [grid, ...rest.flat()];
 }
 
-// ---- Template checks (00_context summary template v02) ----
+// ---- Template checks (planning/summary-template.md) ----
 // The schema in content.config.ts can only see front matter. These rules need
 // the body too, so they live here and fail the build with a clear message.
 const REQUIRED_SECTIONS = [

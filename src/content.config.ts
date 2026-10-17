@@ -1,6 +1,6 @@
 // Content collections: Astro reads every book file, checks its front matter
 // against the schema below, and fails the build if anything doesn't match.
-// Follows 00_context/2026-10-16_365books_summary-template_v02.md. Rules that
+// Follows planning/summary-template.md. Rules that
 // need the body (tag counts vs. headings, required sections) are checked in
 // src/plugins/rehype-book.mjs.
 import { defineCollection } from 'astro:content';
