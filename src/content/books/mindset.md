@@ -164,4 +164,4 @@ Written by Claude (Anthropic) from its knowledge of the book plus the sources li
 | The Modernist | 5 | Every AI rollout is a test of whether people can stand being beginners. |
 | The Reader's Advocate | 5 | One idea, clearly explained, that a reader can use the same day. |
 
-**Final score 4.59** (rubric 4.85, panel 4.33), ranked 1st of 67 Mindset for Builders candidates. Closest debate: the Skeptic dissented on putting it first, citing the 2018 meta-analyses, and argued for *Flow*; the panel kept it on influence and practical reach.
+**Final score 4.59** (rubric 4.85, panel 4.33), ranked 2nd of 68 Mindset for Builders candidates. Closest debate: it had the top score, but the Skeptic, citing the 2018 meta-analyses, argued for *Flow* at number one, and Joe agreed.

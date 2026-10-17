@@ -1,6 +1,6 @@
 # Batch 3: Mindset for Builders (theme 1), v01
 
-Status: **draft for Joe's review**. 67 candidates scored, 35 picks, 5 alternates, 1 routed out after scoring. Six books routed here from Batches 1 and 2 carry their scores over unchanged.
+Status: **draft for Joe's review**. 68 candidates scored, 35 picks, 5 alternates, 1 routed out after scoring. Six books routed here from Batches 1 and 2 carry their scores over unchanged.
 
 ## How to review
 Mark each pick **approve**, **veto** or **swap**. Anything you don't mark counts as approved. Three calls are flagged for you below (*The 7 Habits* placement, the two contested studies at the top, and the era skew).
@@ -20,8 +20,8 @@ Persona scores: Operator / Professor / Skeptic / Mindset Coach / Modernist / Rea
 
 | # | Title | Author | Year | Final | Personas | Nominated by |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | *Mindset* | Carol S. Dweck | 2006 | 4.59 | 4 / 4 / 3 / 5 / 5 / 5 | Public lists |
-| 2 | *Flow* | Mihaly Csikszentmihalyi | 1990 | 4.33 | 3 / 5 / 4 / 5 / 5 / 3 | Public lists |
+| 1 | *Flow* | Mihaly Csikszentmihalyi | 1990 | 4.33 | 3 / 5 / 4 / 5 / 5 / 3 | Public lists |
+| 2 | *Mindset* | Carol S. Dweck | 2006 | 4.59 | 4 / 4 / 3 / 5 / 5 / 5 | Public lists |
 | 3 | *Man's Search for Meaning* | Viktor E. Frankl | 1946 | 4.31 | 3 / 4 / 4 / 5 / 4 / 5 | Public lists |
 | 4 | *So Good They Can't Ignore You* | Cal Newport | 2012 | 4.28 | 5 / 3 / 4 / 3 / 4 / 5 | Operator |
 | 5 | *Working Identity* | Herminia Ibarra | 2003 | 4.27 | 4 / 5 / 4 / 4 / 5 / 4 | Modernist |
@@ -60,7 +60,7 @@ Persona scores: Operator / Professor / Skeptic / Mindset Coach / Modernist / Rea
 
 ## Flagged for Joe
 1. ***The 7 Habits* lives here, not in Habits, Focus and Performance.** The title says habits, but the book is about character and paradigms: be proactive, begin with the end in mind, the inside-out approach. The panel kept it here 5 to 1 (the Operator wanted it next to *Atomic Habits*). If you'd rather it anchor the Habits theme, *The Obstacle Is the Way* is the first alternate.
-2. **The top of the list rests on contested research.** *Mindset* (1st) and *Grit* (15th) are both flagged by the Skeptic: a 2018 meta-analysis (Sisk et al.) found small average effects for growth-mindset interventions, and a 2017 meta-analysis (Crede et al.) found grit adds little beyond conscientiousness. The panel kept both because they shaped how a generation of managers talk about talent, and the critiques sections will say so plainly. The Skeptic dissented on *Mindset* at number 1 and argued for *Flow*.
+2. **Contested research near the top.** *Mindset* (2nd) and *Grit* (15th) are both flagged by the Skeptic: a 2018 meta-analysis (Sisk et al.) found small average effects for growth-mindset interventions, and a 2017 meta-analysis (Crede et al.) found grit adds little beyond conscientiousness. The panel kept both because they shaped how a generation of managers talk about talent, and the critiques sections will say so plainly. **Decided by Joe (2026-10-17):** *Flow* ranks 1st, siding with the Skeptic, and *Mindset* moves to 2nd. Ranks are Joe's call; scores are unchanged.
 3. **Era skew.** 22 of 35 picks are from 2010 on, the most modern batch yet, because the modern evidence-led books (*Peak*, *The Scout Mindset*, *Black Box Thinking*) beat the older positive-thinking canon. Accept it, or ask the panel to swap a modern pick for *Self-Reliance* (1841, an alternate) or another pre-1980 classic.
 
 ## The wildcard round
@@ -84,11 +84,12 @@ Persona scores: Operator / Professor / Skeptic / Mindset Coach / Modernist / Rea
 | *Mastery* | George Leonard | Mindset Coach | 3.42 | pick |
 | *The Art of Possibility* | Rosamund Stone Zander, Benjamin Zander | Mindset Coach | 3.29 | pick |
 | *Ego Is the Enemy* | Ryan Holiday | Operator | 3.26 | cut: Below cutoff; overlaps The Obstacle Is the Way |
-| *Self-Reliance* | Ralph Waldo Emerson | Professor | 3.19 | alternate: An essay rather than a book-length framework |
+| *Self-Reliance* | Ralph Waldo Emerson | Professor | 3.19 | cut: Lost its alternate slot to *Inner Excellence* (4 to 2) |
+| *Inner Excellence* | Jim Murphy | Joe | 3.05 | alternate: Overlaps *The Inner Game of Tennis*; lost the debate 4 to 2 |
 | *The Courage to Be Disliked* | Ichiro Kishimi, Fumitake Koga | Reader's Advocate | 3.12 | pick |
 | *Big Magic* | Elizabeth Gilbert | Reader's Advocate | 2.94 | cut: Below cutoff |
 
-The Operator also nominated *Extreme Ownership*, routed to Leadership without scoring.
+The Operator also nominated *Extreme Ownership*, routed to Leadership without scoring. Joe nominated *Inner Excellence* after the first draft (debate 10).
 
 **Nominator scorecard:** Skeptic 3 of 3, Modernist 3 of 4 (1 routed), Mindset Coach 5 of 5 new nominees plus 4 of 5 carried from earlier batches (*Range*, *The Infinite Game*, *Originals*, *Think Like a Rocket Scientist*; *Finite and Infinite Games* is an alternate), Professor 2 of 3 (1 alternate), Reader's Advocate 2 of 3, Operator 1 of 3 (1 cut, 1 routed).
 
@@ -102,6 +103,7 @@ The Operator also nominated *Extreme Ownership*, routed to Leadership without sc
 7. **Author caps.** Cal Newport uses one slot here; *Deep Work* and *Digital Minimalism* will compete for his second in Habits. Adam Grant uses one slot with *Originals*; *Option B* is cut, leaving room for *Think Again* or *Give and Take* elsewhere. Brene Brown gets one slot (*Daring Greatly*; *The Gifts of Imperfection* is cut as an overlap). Ryan Holiday places none, with *The Obstacle Is the Way* as an alternate.
 8. **The business-angle test.** *The Power of Now*, *12 Rules for Life*, *The Four Agreements* and *The Subtle Art of Not Giving a F\*ck* are widely read but failed the Mindset Coach's own case for work impact. *Think and Grow Rich* (1937) has the reach but the Skeptic showed its claims about Hill's sources can't be confirmed, which fails the verification filter in spirit. All are cut.
 9. ***Man's Search for Meaning* and the business-angle test.** The Operator called it a life book, not a business book. The Mindset Coach answered that leaders cite it on purpose at work more than almost any other book, and that its ideas transfer directly to leading through hard change. The panel agreed 5 to 1, and it ranks 3rd.
+10. ***Inner Excellence* (Jim Murphy), nominated by Joe.** It wasn't on the public lists or the first long list. Murphy, a former Chicago Cubs minor-leaguer turned performance coach, first self-published it in 2009 and revised it in 2020 and 2025, and his publisher bills him as a New York Times bestselling author. It scored 3.05 (rubric 3.10, panel 3.00). The Mindset Coach scored it 5 and argued it is the most complete modern training program for the inner game, built from two decades of work and interviews with top athletes and leaders. The Reader's Advocate backed it as practical and readable. The Professor and the Skeptic answered that it blends Stoicism, Eastern practice, psychology and some neuro-linguistic programming without much evidence of its own, and the Operator and the Modernist said *The Inner Game of Tennis* already holds the coaching-the-mind slot with the original idea. The vote went 4 to 2 against a pick. It takes *Self-Reliance*'s place as an alternate, so it is first in line if a pick drops. Joe can still overrule, as he did for *Flow*.
 
 ## Alternates
 | Title | Author | Final | Nominated by | Why not a pick |
@@ -110,7 +112,7 @@ The Operator also nominated *Extreme Ownership*, routed to Leadership without sc
 | *Outliers* | Malcolm Gladwell | 3.54 | Public lists | *Peak* covers deliberate practice from the source and corrects the 10,000-hour reading |
 | *Finite and Infinite Games* | James P. Carse | 3.27 | Mindset Coach | Lost the infinite-game slot to *The Infinite Game* (5 to 1) |
 | *Resilience* | Steven M. Southwick, Dennis S. Charney | 3.19 | Public lists | Below cutoff; the strongest research-led resilience book |
-| *Self-Reliance* | Ralph Waldo Emerson | 3.19 | Professor | An essay rather than a book-length framework |
+| *Inner Excellence* | Jim Murphy | 3.05 | Joe | Lost the debate to *The Inner Game of Tennis* on overlap (4 to 2) |
 
 ## Routed to other themes
 | Title | Author | Final | Nominated by | Destination |

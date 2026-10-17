@@ -1,6 +1,6 @@
 status,title,author,year,origin,nominator,sources,final,rubric,panel,operator,professor,skeptic,coach,modernist,advocate,inf,dur,dist,prac,ai,read,reason,note
+pick,Flow,Mihaly Csikszentmihalyi,1990,mixed,Public lists,SF;MR,4.33,4.5,4.17,3,5,4,5,5,3,5,5,5,3,5,3,,Optimal experience; ranked 1st by Joe
 pick,Mindset,Carol S. Dweck,2006,US,Public lists,SF;AC,4.59,4.85,4.33,4,4,3,5,5,5,5,5,5,4,5,5,,Growth vs fixed mindset
-pick,Flow,Mihaly Csikszentmihalyi,1990,mixed,Public lists,SF;MR,4.33,4.5,4.17,3,5,4,5,5,3,5,5,5,3,5,3,,Optimal experience
 pick,Man's Search for Meaning,Viktor E. Frankl,1946,non-US,Public lists,SF;MR,4.31,4.45,4.17,3,4,4,5,4,5,5,5,5,3,4,4,,Logotherapy
 pick,So Good They Can't Ignore You,Cal Newport,2012,US,Operator,Wildcard,4.28,4.55,4.0,5,3,4,3,4,5,4,4,5,5,5,5,,Career capital over passion
 pick,Working Identity,Herminia Ibarra,2003,mixed,Modernist,Wildcard,4.27,4.2,4.33,4,5,4,4,5,4,3,4,5,5,5,4,,Career reinvention by doing
@@ -38,7 +38,8 @@ alternate,The Obstacle Is the Way,Ryan Holiday,2014,US,Public lists,SF;AC,3.65,3
 alternate,Outliers,Malcolm Gladwell,2008,mixed,Public lists,SF,3.54,3.9,3.17,3,3,2,3,3,5,5,4,4,2,3,5,"Peak covers deliberate practice from the source and corrects the 10,000-hour reading",Success as context and practice
 alternate,Finite and Infinite Games,James P. Carse,1986,US,Mindset Coach,Wildcard,3.27,3.7,2.83,1,3,3,5,3,2,3,5,5,2,4,3,Lost the infinite-game slot to The Infinite Game (5 to 1),Carried from Batch 1
 alternate,Resilience: The Science of Mastering Life's Greatest Challenges,"Steven M. Southwick, Dennis S. Charney",2012,US,Public lists,PP,3.19,3.05,3.33,3,4,4,4,2,3,2,3,4,4,3,3,Below cutoff; strongest research-led resilience book,Ten resilience factors
-alternate,Self-Reliance,Ralph Waldo Emerson,1841,US,Professor,Wildcard,3.19,3.55,2.83,2,3,3,4,3,2,3,5,4,2,4,3,Below cutoff; an essay rather than a book-length framework,Nonconformity essay
+alternate,Inner Excellence,Jim Murphy,2009,US,Joe,Wildcard,3.05,3.1,3.0,3,2,2,5,2,4,3,3,2,4,3,4,Overlaps The Inner Game of Tennis; lost the debate 4 to 2,Revised editions 2020 and 2025
+cut,Self-Reliance,Ralph Waldo Emerson,1841,US,Professor,Wildcard,3.19,3.55,2.83,2,3,3,4,3,2,3,5,4,2,4,3,Lost its alternate slot to Inner Excellence (4 to 2),Nonconformity essay
 routed,Four Thousand Weeks,Oliver Burkeman,2021,non-US,Modernist,Wildcard,3.74,3.65,3.83,3,3,4,4,4,5,3,3,4,4,4,5,"Route to Habits, Focus and Performance",Finitude and time
 cut,Talent Is Overrated,Geoff Colvin,2008,US,Public lists,AC,3.37,3.4,3.33,3,3,3,4,3,4,3,3,3,4,4,4,Overlaps Peak,Deliberate practice for business
 cut,Ego Is the Enemy,Ryan Holiday,2016,US,Operator,Wildcard,3.26,3.35,3.17,4,2,2,4,3,4,3,3,3,4,3,5,Below cutoff; overlaps The Obstacle Is the Way,Ego at each stage

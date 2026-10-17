@@ -164,4 +164,4 @@ Written by Claude (Anthropic) from its knowledge of the book plus the sources li
 | The Modernist | 4 | When roles change under people, the question it asks becomes urgent. |
 | The Reader's Advocate | 5 | Short, gripping and impossible to forget. |
 
-**Final score 4.31** (rubric 4.45, panel 4.17), ranked 3rd of 67 Mindset for Builders candidates. Closest debate: whether it passes the business-angle test. The Operator called it a life book, not a business book; the Mindset Coach made the case that leaders cite it more than almost any book on purpose at work, and the panel agreed.
+**Final score 4.31** (rubric 4.45, panel 4.17), ranked 3rd of 68 Mindset for Builders candidates. Closest debate: whether it passes the business-angle test. The Operator called it a life book, not a business book; the Mindset Coach made the case that leaders cite it more than almost any book on purpose at work, and the panel agreed.

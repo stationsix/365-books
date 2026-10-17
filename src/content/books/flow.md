@@ -162,4 +162,4 @@ Written by Claude (Anthropic) from its knowledge of the book plus the sources li
 | The Modernist | 5 | AI is about to change both attention and challenge; this is the baseline. |
 | The Reader's Advocate | 3 | Brilliant opening chapters, then a long abstract stretch. |
 
-**Final score 4.33** (rubric 4.50, panel 4.17), ranked 2nd of 67 Mindset for Builders candidates. Closest debate: the Skeptic argued *Flow* should rank first over *Mindset* because its findings have held up better; the panel kept *Mindset* first on reach and practical use.
+**Final score 4.33** (rubric 4.50, panel 4.17), ranked 1st of 68 Mindset for Builders candidates. Closest debate: the Skeptic argued *Flow* should rank first over *Mindset* because its findings have held up better; the panel scored *Mindset* higher on reach, and Joe made *Flow* number one.
