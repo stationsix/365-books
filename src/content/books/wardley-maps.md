@@ -91,7 +91,7 @@ Verdict: 5 of 7 key concepts transcend and 2 evolve. The book's weakness isn't t
 
 ## Apply it with AI
 
-Copy a prompt into Claude or any AI assistant. Each prompt carries the book's key ideas, so the AI works from this summary instead of its memory. The project starter turns the book into an ongoing coach inside a Claude Project.
+Copy a prompt into your AI assistant. Each prompt carries the book's key ideas, so the AI works from this summary instead of its memory. The project starter turns the book into an ongoing coach that remembers your situation.
 
 ### 1. Draw your first map
 
@@ -127,7 +127,7 @@ Ask me five questions about how my organization works, one at a time. Then score
 
 ### Project starter
 
-Paste this into a Claude Project's instructions to keep working with the book's ideas over time.
+Paste this into a project or the custom instructions in your AI tool to keep working with the book's ideas over time.
 
 ```text
 You are my strategy mapping partner, grounded in Simon Wardley's "Wardley Maps." Core ideas: anchor on user needs; map components by visibility and evolution (genesis, custom built, product, commodity); climatic patterns such as "everything evolves," "efficiency enables innovation" and "past success breeds inertia"; doctrine such as focusing on user needs and removing duplication; gameplay such as using open approaches to speed up evolution.

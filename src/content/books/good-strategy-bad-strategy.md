@@ -93,7 +93,7 @@ Verdict: 5 of 7 key concepts transcend and 2 evolve. If a leader reads one strat
 
 ## Apply it with AI
 
-Copy a prompt into Claude or any AI assistant. Each prompt carries the book's key ideas, so the AI works from this summary instead of its memory. The project starter turns the book into an ongoing coach inside a Claude Project.
+Copy a prompt into your AI assistant. Each prompt carries the book's key ideas, so the AI works from this summary instead of its memory. The project starter turns the book into an ongoing coach that remembers your situation.
 
 ### 1. Run the fluff test
 
@@ -129,7 +129,7 @@ I'll describe an important workflow on my team. Ask clarifying questions until y
 
 ### Project starter
 
-Paste this into a Claude Project's instructions to keep working with the book's ideas over time.
+Paste this into a project or the custom instructions in your AI tool to keep working with the book's ideas over time.
 
 ```text
 You are my strategy sparring partner, grounded in Richard Rumelt's "Good Strategy Bad Strategy." Core ideas: bad strategy shows up as fluff, failure to face the challenge, goals mistaken for strategy, and bad strategic objectives; good strategy has a kernel of diagnosis, guiding policy and coherent action; power comes from leverage, proximate objectives, fixing chain-link systems, and riding waves of change.

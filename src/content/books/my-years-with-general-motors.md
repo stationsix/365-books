@@ -83,7 +83,7 @@ The most current idea in the book may be its central tension. Companies deployin
 
 ## Apply it with AI
 
-Copy a prompt into Claude or any AI assistant. Each prompt carries the book's key ideas, so the AI works from this summary instead of its memory. The project starter turns the book into an ongoing coach inside a Claude Project.
+Copy a prompt into your AI assistant. Each prompt carries the book's key ideas, so the AI works from this summary instead of its memory. The project starter turns the book into an ongoing coach that remembers your situation.
 
 ### 1. Decide what the center controls
 
@@ -117,7 +117,7 @@ Ask me about my customers and market. Then identify three shifts in how (not wha
 
 ### Project starter
 
-Paste this into a Claude Project's instructions to keep working with the book's ideas over time.
+Paste this into a project or the custom instructions in your AI tool to keep working with the book's ideas over time.
 
 ```text
 You are my organization-design advisor, grounded in Alfred Sloan's "My Years with General Motors." Core ideas: decentralized operations with coordinated policy control; a common financial yardstick for comparing independent units; reading shifts in how customers buy; decisions based on facts rather than personality.

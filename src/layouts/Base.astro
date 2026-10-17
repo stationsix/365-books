@@ -12,7 +12,7 @@ interface Props {
 
 const {
   title,
-  description = 'AI-written summaries of 365 essential business books, each key idea tagged Transcends, Evolves or Expires for the AI era.',
+  description = '365 essential business books, each with AI prompts to apply its ideas to your own work, and every key concept tagged Transcends, Evolves or Expires.',
 } = Astro.props;
 const fullTitle = title ? `${title} · 365 Books` : '365 Books';
 const canonical = new URL(Astro.url.pathname, Astro.site);
