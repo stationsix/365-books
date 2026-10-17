@@ -1,0 +1,101 @@
+[
+  {
+    "theme": "strategy",
+    "title": "In Search of Excellence",
+    "author": "Tom Peters, Robert H. Waterman Jr.",
+    "year": 1982,
+    "lane": "crowd",
+    "champion": null,
+    "final": 3.05,
+    "blurb": "The 1982 bestseller that profiled America's best-run companies and boiled their success down to eight attributes, among them a bias for action and staying close to the customer.",
+    "why_not": "The Skeptic's case: several of its excellent companies stumbled within a few years, which makes it the classic warning about reading success backward from survivors. That lesson lives on in The Halo Effect, which made the list."
+  },
+  {
+    "theme": "strategy",
+    "title": "The 33 Strategies of War",
+    "author": "Robert Greene",
+    "year": 2006,
+    "lane": "crowd",
+    "champion": null,
+    "final": 2.77,
+    "blurb": "Greene's compendium of military strategy recast as rules for everyday conflict, widely read by founders and athletes.",
+    "why_not": "The Mindset Coach nominated it, but the Professor and the Skeptic scored it 1: vivid stories, little evidence, and more about winning fights than building advantage."
+  },
+  {
+    "theme": "strategy",
+    "title": "Strategy Safari",
+    "author": "Henry Mintzberg, Bruce Ahlstrand, Joseph Lampel",
+    "year": 1998,
+    "lane": "specialist",
+    "champion": "The Professor",
+    "final": 2.94,
+    "blurb": "A tour of ten schools of strategic thought, from design and planning to learning and power, by the field's most famous critic of strategic planning.",
+    "why_not": "The Professor scored it 5 as the best map of the field. Everyone else found it a book about strategy theories rather than a way to make strategy, and the Mindset Coach scored it 1."
+  },
+  {
+    "theme": "innovation-tech",
+    "title": "Sprint",
+    "author": "Jake Knapp, John Zeratsky, Braden Kowitz",
+    "year": 2016,
+    "lane": "crowd",
+    "champion": null,
+    "final": 3.62,
+    "blurb": "The five-day process from Google Ventures for going from a problem to a tested prototype, used by product teams worldwide.",
+    "why_not": "It lost a 4 to 2 vote to Continuous Discovery Habits. The Modernist argued that when a prototype takes an hour, a five-day ritual compresses, while weekly customer contact gets more valuable."
+  },
+  {
+    "theme": "innovation-tech",
+    "title": "The Soul of a New Machine",
+    "author": "Tracy Kidder",
+    "year": 1981,
+    "lane": "crowd",
+    "champion": null,
+    "final": 3.52,
+    "blurb": "Kidder's Pulitzer Prize-winning account of a Data General team racing to build a new computer, still a favorite among engineers.",
+    "why_not": "It scored just below Hello World and lost the balance check to it. It is closer to narrative nonfiction than a framework, which the scope rule treats cautiously."
+  },
+  {
+    "theme": "innovation-tech",
+    "title": "The Coming Wave",
+    "author": "Mustafa Suleyman, Michael Bhaskar",
+    "year": 2023,
+    "lane": "specialist",
+    "champion": "The Modernist",
+    "final": 3.23,
+    "blurb": "A DeepMind co-founder's argument that AI and synthetic biology will be hard to contain, and that containment is the central problem of the century.",
+    "why_not": "The Modernist scored it 5 as the most direct book on the stakes of AI. The Operator and the Mindset Coach scored it 2, finding little a reader can apply at work, and it was young for the canon."
+  },
+  {
+    "theme": "mindset",
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "year": 1937,
+    "lane": "crowd",
+    "champion": null,
+    "final": 2.71,
+    "blurb": "One of the best-selling self-help books ever, built on the promise that a burning desire and a definite purpose lead to wealth.",
+    "why_not": "The Skeptic showed that Hill's claims about where his material came from can't be confirmed, and the Professor and the Modernist scored it 1. Its reach is real; its method is not testable."
+  },
+  {
+    "theme": "mindset",
+    "title": "Can't Hurt Me",
+    "author": "David Goggins",
+    "year": 2018,
+    "lane": "specialist",
+    "champion": "The Mindset Coach",
+    "final": 3.06,
+    "blurb": "A former Navy SEAL's memoir and challenge program for mental toughness, a phenomenon with athletes and founders.",
+    "why_not": "The Mindset Coach scored it 5. The Professor scored it 1 and the Skeptic 2: a memoir first, and Do Hard Things makes the evidence-based case for toughness that the panel preferred."
+  },
+  {
+    "theme": "mindset",
+    "title": "Inner Excellence",
+    "author": "Jim Murphy",
+    "year": 2009,
+    "lane": "specialist",
+    "champion": "The Mindset Coach",
+    "final": 3.05,
+    "blurb": "A performance coach's training program for the mind, drawn from work with elite athletes and blending Stoic, Eastern and psychological practice. Revised in 2020 and 2025.",
+    "why_not": "Nominated by Joe. The Mindset Coach scored it 5, but it lost 4 to 2 because The Inner Game of Tennis already holds the coaching-the-mind slot with the original idea. It stays an alternate."
+  }
+]

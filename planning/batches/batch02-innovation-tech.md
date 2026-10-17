@@ -102,6 +102,15 @@ Persona scores: Operator / Professor / Skeptic / Mindset Coach / Modernist / Rea
 9. ***The Shock of the Old* lifted from 40th.** The Skeptic argued that Edgerton's book, which shows old technologies persisting long after the new ones are announced, is the strongest outside test of the site's own hypothesis that more ideas transcend than expire. The vote went 4 to 2 (Operator and Reader's Advocate against). It takes the last slot over *The Myths of Innovation*, which becomes an alternate.
 10. **The Mindset Coach's nominees.** *Range*, *Originals* and *Think Like a Rocket Scientist* move to Mindset for Builders. *Creativity, Inc.* moves to Management, Teams and Culture, because its lessons are about running a creative culture. *Range* scored 3.88 here and carries that score with it.
 
+## Honorable mentions
+Added 2026-10-17. Up to three per theme from books that missed the list (alternates allowed). A **crowd favorite** is culturally popular (on two or more of the public lists, or a famous long-running bestseller) but scored low. A **specialist's pick** got a 5 from the theme's lead persona, here the Modernist, and still lost. They get a short card on the site's Honorable mentions page, no full summary, and don't count toward the 365. Card text lives in `src/data/honorable-mentions.json`.
+
+| Title | Author | Final | Lane | Why it missed |
+| --- | --- | --- | --- | --- |
+| *Sprint* | Jake Knapp, John Zeratsky, Braden Kowitz | 3.62 | Crowd favorite | Lost 4 to 2 to Continuous Discovery Habits |
+| *The Soul of a New Machine* | Tracy Kidder | 3.52 | Crowd favorite | Lost the balance check to Hello World |
+| *The Coming Wave* | Mustafa Suleyman, Michael Bhaskar | 3.23 | Specialist's pick (Modernist, 5) | Little a reader can apply at work; young for the canon |
+
 ## Alternates
 | Title | Author | Final | Nominated by | Why not a pick |
 | --- | --- | --- | --- | --- |

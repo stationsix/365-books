@@ -85,6 +85,15 @@ Persona scores: Operator / Professor / Skeptic / Mindset Coach / Modernist / Rea
 5. ***The Infinite Game* placement.** The Mindset Coach wanted it here. The panel agreed it's mostly about purpose and mindset rather than competitive strategy, so it moves to Mindset for Builders along with Carse's *Finite and Infinite Games*. That batch decides between them.
 6. **The Modernist's AI picks** (*Co-Intelligence*, *Chip War*, *Working in Public*) and the Professor's *Lead and Disrupt* scored well but belong to Innovation and Technology, so they're routed there with their scores carried over.
 
+## Honorable mentions
+Added 2026-10-17. Up to three per theme from books that missed the list (alternates allowed). A **crowd favorite** is culturally popular (on two or more of the public lists, or a famous long-running bestseller) but scored low. A **specialist's pick** got a 5 from the theme's lead persona, here the Professor, and still lost. They get a short card on the site's Honorable mentions page, no full summary, and don't count toward the 365. Card text lives in `src/data/honorable-mentions.json`.
+
+| Title | Author | Final | Lane | Why it missed |
+| --- | --- | --- | --- | --- |
+| *In Search of Excellence* | Tom Peters, Robert H. Waterman Jr. | 3.05 | Crowd favorite | Skeptic: its excellent companies stumbled within a few years |
+| *The 33 Strategies of War* | Robert Greene | 2.77 | Crowd favorite | Vivid stories, little evidence; Professor and Skeptic scored it 1 |
+| *Strategy Safari* | Henry Mintzberg, Bruce Ahlstrand, Joseph Lampel | 2.94 | Specialist's pick (Professor, 5) | A map of strategy theories more than a way to make strategy |
+
 ## Alternates
 | Title | Author | Final | Nominated by | Why not a pick |
 | --- | --- | --- | --- | --- |
