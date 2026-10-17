@@ -1,0 +1,128 @@
+---
+// One page per live book, at /books/<slug>/. The [slug] in the file name is a
+// placeholder that getStaticPaths fills in, once per book, at build time.
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import VerdictPanel from '../../components/VerdictPanel.astro';
+import { coreIdea, getLiveBooks, sectionParagraphs, themeName, type Book } from '../../lib/books';
+import '../../styles/book.css';
+
+export async function getStaticPaths() {
+  const books = await getLiveBooks();
+  return books.map((book) => ({ params: { slug: book.id }, props: { book } }));
+}
+
+const { book } = Astro.props as { book: Book };
+const d = book.data;
+const { Content } = await render(book);
+const idea = coreIdea(book.body);
+const madeNotes = sectionParagraphs(book.body, 'How this summary was made');
+const correctionUrl = `https://github.com/stationsix/365-books/issues/new?title=${encodeURIComponent(
+  `Correction: ${d.title}`,
+)}`;
+const sourceHost = (s: string) => {
+  try {
+    return new URL(s).hostname.replace(/^www\./, '');
+  } catch {
+    return s;
+  }
+};
+---
+
+<Base title={d.title} description={idea || `${d.title} by ${d.author}, summarized for the AI era.`}>
+  <article class="container book">
+    <header class="book__header">
+      <p class="label book__meta">
+        <span>{themeName(d.theme)}</span>
+        <span>{d.year}</span>
+        <span>{d.read_time_min} min read</span>
+        {d.number != null && <span>No. {String(d.number).padStart(3, '0')}</span>}
+        {d.free_online && <span>Free online{d.license && ` · ${d.license}`}</span>}
+      </p>
+      <h1>{d.title}</h1>
+      {d.subtitle && <p class="book__subtitle">{d.subtitle}</p>}
+      <p class="book__author">by {d.author}</p>
+      {idea && <p class="lead book__idea">{idea}</p>}
+    </header>
+
+    <VerdictPanel book={book} />
+
+    <div class="book__body">
+      <Content />
+    </div>
+
+    <aside class="disclosure" aria-labelledby="disclosure-title">
+      <h2 class="label" id="disclosure-title">How this summary was made</h2>
+      {d.sources.length > 0 && (
+        <div class="disclosure__sources">
+          <p class="label">Sources</p>
+          <ul>
+            {d.sources.map((s) => <li><a href={s} rel="noopener">{sourceHost(s)}</a></li>)}
+          </ul>
+        </div>
+      )}
+      {madeNotes.map((p) => <p>{p}</p>)}
+      <dl class="disclosure__meta">
+        <div><dt>Confidence</dt><dd>{d.confidence}</dd></div>
+        <div><dt>Status</dt><dd>{d.status}</dd></div>
+        <div><dt>Nominated by</dt><dd>{d.nominated_by}</dd></div>
+      </dl>
+      <div class="disclosure__actions">
+        <a class="disclosure__correction" href={correctionUrl}>Report a correction</a>
+        {d.asin && (
+          <a class="btn btn--outline" href={`https://www.amazon.com/dp/${d.asin}`} rel="noopener">
+            Get the book on Amazon
+          </a>
+        )}
+      </div>
+    </aside>
+  </article>
+  <p class="visually-hidden" aria-live="polite" id="copy-status"></p>
+</Base>
+
+<script>
+  // Prompt blocks: expand/collapse rows and copy prompt text to the clipboard.
+  const status = document.getElementById('copy-status');
+
+  document.querySelectorAll<HTMLButtonElement>('.prompt__toggle').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const body = document.getElementById(btn.getAttribute('aria-controls') ?? '');
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      if (body) body.hidden = open;
+    });
+  });
+
+  async function copyText(text: string) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      // Fallback for browsers that block the async clipboard API.
+      const area = document.createElement('textarea');
+      area.value = text;
+      area.setAttribute('readonly', '');
+      area.style.position = 'fixed';
+      area.style.opacity = '0';
+      document.body.append(area);
+      area.select();
+      const ok = document.execCommand('copy');
+      area.remove();
+      return ok;
+    }
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.prompt__copy').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const source = document.getElementById(btn.dataset.copy ?? '');
+      const ok = await copyText(source?.textContent?.trim() ?? '');
+      btn.textContent = ok ? 'Copied' : 'Copy failed';
+      btn.classList.toggle('is-copied', ok);
+      if (status) status.textContent = ok ? 'Prompt copied to clipboard' : 'Copy failed';
+      setTimeout(() => {
+        btn.textContent = 'Copy prompt';
+        btn.classList.remove('is-copied');
+      }, 2000);
+    });
+  });
+</script>

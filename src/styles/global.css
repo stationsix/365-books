@@ -1,0 +1,136 @@
+/* 365 Books global styles. Tokens come from
+   00_context/2026-10-16_365books_tokens_v01.css (Terminal Ledger · Circuit).
+   The Google Fonts import lives in the layout <head> instead of here. */
+
+:root {
+  --bg: #0B0D10; --surface: #12161B; --code-bg: #0F1216; --line: #232A33; --empty: #1A2028;
+  --text: #E6EAF0; --muted: #8B95A3; --code: #C9D1DB;
+  --brand: #B8F35A; --brand-hover: #D6FF8F; --on-brand: #0B0D10;
+  --transcends: #B8F35A; --evolves: #5CC8E6; --expires: #9B8AE6;
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --maxw: 1120px; --gutter: 32px; --section-gap: 56px;
+  color-scheme: dark;
+}
+@media (max-width: 640px) { :root { --gutter: 16px; } }
+
+*, *::before, *::after { box-sizing: border-box; }
+* { border-radius: 0; }
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+}
+main { flex: 1; }
+
+a { color: var(--brand); text-underline-offset: 3px; }
+a:hover { color: var(--brand-hover); }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+h1, h2, h3, h4 { margin: 0; line-height: 1.2; }
+h1 { font-size: 60px; line-height: 1.05; font-weight: 700; letter-spacing: -0.02em; }
+@media (max-width: 640px) { h1 { font-size: 40px; } }
+p { margin: 0 0 1em; }
+img { max-width: 100%; height: auto; }
+
+/* Layout */
+.container {
+  max-width: calc(var(--maxw) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+.section { margin-top: var(--section-gap); }
+
+/* Shared type helpers */
+.mono { font-family: var(--font-mono); }
+.label {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+}
+.section-header {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+  margin: 0 0 20px;
+}
+.lead { font-size: 24px; line-height: 1.45; font-weight: 500; }
+@media (max-width: 640px) { .lead { font-size: 20px; } }
+.panel { background: var(--surface); border: 1px solid var(--line); padding: 24px; }
+
+/* Buttons: square, at least 44px tall */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  border: 1px solid var(--brand);
+  background: var(--brand);
+  color: var(--on-brand);
+  cursor: pointer;
+}
+.btn:hover { background: var(--brand-hover); border-color: var(--brand-hover); color: var(--on-brand); }
+.btn--outline { background: transparent; color: var(--brand); }
+.btn--outline:hover { background: transparent; color: var(--brand-hover); }
+
+/* Verdict tags */
+.tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  padding: 5px 8px;
+  border: 1px solid currentColor;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.tag--transcends { background: var(--transcends); border-color: var(--transcends); color: var(--on-brand); }
+.tag--evolves { color: var(--evolves); }
+.tag--expires { color: var(--expires); }
+
+/* AI analysis badge */
+.ai-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 5px 8px;
+  background: var(--brand);
+  color: var(--on-brand);
+}
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}

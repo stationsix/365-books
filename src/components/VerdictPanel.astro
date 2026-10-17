@@ -1,0 +1,60 @@
+---
+import VerdictBar from './VerdictBar.astro';
+import VerdictLegend from './VerdictLegend.astro';
+import { readerStatus, verdictStats, type Book } from '../lib/books';
+import { url } from '../lib/url';
+
+interface Props {
+  book: Book;
+}
+const { book } = Astro.props;
+const { tags } = book.data;
+const { total, pct } = verdictStats(tags);
+---
+
+<section class="verdict panel" aria-labelledby="verdict-title">
+  <div class="verdict__top">
+    <div>
+      <h2 class="label" id="verdict-title">AI-era verdict</h2>
+      <p class="verdict__headline">
+        <span class="verdict__pct">{pct.transcends}%</span> transcend{' '}
+        <span class="verdict__of">· {total} key concepts</span>
+      </p>
+    </div>
+    <div class="verdict__reader">
+      <p class="label"><a href={url('/reader-zero/')}>Reader zero</a></p>
+      <p class:list={['verdict__status', { 'is-read': book.data.joe_read }]}>{readerStatus(book)}</p>
+    </div>
+  </div>
+  <VerdictBar tags={tags} />
+  <VerdictLegend tags={tags} />
+</section>
+
+<style>
+  .verdict { display: grid; gap: 18px; }
+  .verdict__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px 32px;
+    flex-wrap: wrap;
+  }
+  h2.label { margin: 0 0 6px; }
+  .verdict__headline {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 15px;
+    color: var(--muted);
+  }
+  .verdict__pct { font-size: 28px; font-weight: 600; color: var(--transcends); margin-right: 4px; }
+  .verdict__reader { text-align: right; }
+  .verdict__reader p { margin: 0; }
+  .verdict__reader .label { margin-bottom: 6px; }
+  .verdict__reader a { color: var(--muted); }
+  .verdict__reader a:hover { color: var(--text); }
+  .verdict__status { font-family: var(--font-mono); font-size: 14px; color: var(--muted); }
+  .verdict__status.is-read { color: var(--text); }
+  @media (max-width: 640px) {
+    .verdict__reader { text-align: left; }
+  }
+</style>

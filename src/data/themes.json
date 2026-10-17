@@ -1,0 +1,14 @@
+[
+  { "slug": "mindset", "name": "Mindset for Builders", "target": 35 },
+  { "slug": "habits-focus", "name": "Habits, Focus and Performance", "target": 30 },
+  { "slug": "entrepreneurship", "name": "Entrepreneurship", "target": 30 },
+  { "slug": "strategy", "name": "Strategy", "target": 30 },
+  { "slug": "leadership", "name": "Leadership", "target": 32 },
+  { "slug": "management-teams", "name": "Management, Teams and Culture", "target": 30 },
+  { "slug": "marketing-brand", "name": "Marketing and Brand", "target": 30 },
+  { "slug": "sales-negotiation", "name": "Sales, Persuasion and Negotiation", "target": 28 },
+  { "slug": "innovation-tech", "name": "Innovation and Technology", "target": 30 },
+  { "slug": "decisions-behavioral", "name": "Decisions and Behavioral Economics", "target": 30 },
+  { "slug": "money", "name": "Money: Finance, Investing, Economics", "target": 30 },
+  { "slug": "operations-systems", "name": "Operations and Systems", "target": 30 }
+]

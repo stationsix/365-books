@@ -1,0 +1,27 @@
+---
+// Stacked bar of Transcends / Evolves / Expires, each segment sized by its count.
+import type { Tags } from '../lib/books';
+
+interface Props {
+  tags: Tags;
+  height?: number;
+  gap?: number;
+}
+const { tags, height = 14, gap = 3 } = Astro.props;
+const segments = (['transcends', 'evolves', 'expires'] as const).filter((k) => tags[k] > 0);
+const label = `${tags.transcends} transcend, ${tags.evolves} evolve, ${tags.expires} expire`;
+---
+
+<div class="vbar" role="img" aria-label={label} style={`height:${height}px;gap:${gap}px`}>
+  {segments.length === 0 && <span class="vbar__empty"></span>}
+  {segments.map((k) => <span class={`vbar__seg vbar__seg--${k}`} style={`flex-grow:${tags[k]}`}></span>)}
+</div>
+
+<style>
+  .vbar { display: flex; width: 100%; }
+  .vbar__seg, .vbar__empty { flex: 1 1 0; min-width: 4px; }
+  .vbar__empty { background: var(--line); }
+  .vbar__seg--transcends { background: var(--transcends); }
+  .vbar__seg--evolves { background: var(--evolves); }
+  .vbar__seg--expires { background: var(--expires); }
+</style>

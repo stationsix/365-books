@@ -1,0 +1,70 @@
+---
+// Placeholder: Joe's reading log. Fed by joe_read / joe_rating / joe_note in each
+// book's front matter (a GitHub Issue form will update these in a later session).
+import Base from '../layouts/Base.astro';
+import { getLiveBooks, readerStatus, themeName } from '../lib/books';
+import { url } from '../lib/url';
+
+const books = await getLiveBooks();
+const read = books.filter((b) => b.data.joe_read).length;
+---
+
+<Base title="Reader zero" description="Joe's progress reading the 365 books behind the summaries.">
+  <article class="container page">
+    <header>
+      <p class="label">Reader zero</p>
+      <h1>Reading the books, not just the summaries</h1>
+      <p class="lead">
+        Joe started this project and is its first reader. The summaries come first; Joe reads the full
+        books over time and logs each one here.
+      </p>
+      <p class="tally"><strong>{read}</strong> of {books.length} summarized books read so far.</p>
+    </header>
+
+    <section class="section">
+      <h2 class="section-header"><span class="num">01</span> / Reading log</h2>
+      <ul class="log">
+        {books.map((b) => (
+          <li class:list={{ 'is-read': b.data.joe_read }}>
+            <span class="log__mark" aria-hidden="true"></span>
+            <span class="log__book">
+              <a href={url(`/books/${b.id}/`)}>{b.data.title}</a>
+              <span class="log__meta">{b.data.author} · {themeName(b.data.theme)}</span>
+              {b.data.joe_note && <span class="log__note">{b.data.joe_note}</span>}
+            </span>
+            <span class="log__status">{readerStatus(b)}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .page { padding-top: 48px; }
+  .page header .lead { margin-top: 24px; max-width: 760px; }
+  .num { color: var(--text); }
+  .tally { font-family: var(--font-mono); font-size: 14px; color: var(--muted); margin-top: 20px; }
+  .tally strong { color: var(--text); }
+  .log { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  .log li {
+    display: grid;
+    grid-template-columns: 14px 1fr auto;
+    gap: 16px;
+    align-items: baseline;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .log__mark { width: 12px; height: 12px; background: var(--empty); outline: 1px solid var(--line); align-self: center; }
+  .is-read .log__mark { background: var(--text); outline: 0; }
+  .log__book { display: grid; gap: 2px; }
+  .log__book a { font-weight: 600; font-size: 18px; text-decoration: none; display: inline-flex; min-height: 44px; align-items: center; }
+  .log__meta { color: var(--muted); font-size: 15px; }
+  .log__note { margin-top: 6px; font-size: 15px; }
+  .log__status { font-family: var(--font-mono); font-size: 13px; color: var(--muted); text-align: right; }
+  .is-read .log__status { color: var(--text); }
+  @media (max-width: 640px) {
+    .log li { grid-template-columns: 14px 1fr; }
+    .log__status { grid-column: 2; text-align: left; }
+  }
+</style>

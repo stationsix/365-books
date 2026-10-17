@@ -1,0 +1,58 @@
+---
+// 365 square cells: read by Joe = --text, published = lime, the rest = --empty.
+import type { Book } from '../lib/books';
+
+interface Props {
+  books: Book[];
+}
+const { books } = Astro.props;
+const read = books.filter((b) => b.data.joe_read).length;
+const published = books.filter((b) => b.data.status === 'published' && !b.data.joe_read).length;
+const cells = Array.from({ length: 365 }, (_, i) =>
+  i < read ? 'read' : i < read + published ? 'published' : 'empty',
+);
+const publishedTotal = books.filter((b) => b.data.status === 'published').length;
+---
+
+<div class="progress">
+  <div
+    class="grid"
+    role="img"
+    aria-label={`${publishedTotal} of 365 books published, ${read} read by Joe`}
+  >
+    {cells.map((c) => <span class={c}></span>)}
+  </div>
+  <ul class="legend">
+    <li><span class="sw published" aria-hidden="true"></span>Published <strong>{publishedTotal}</strong></li>
+    <li><span class="sw read" aria-hidden="true"></span>Read by Joe <strong>{read}</strong></li>
+    <li><span class="sw empty" aria-hidden="true"></span>To go <strong>{365 - publishedTotal}</strong></li>
+  </ul>
+</div>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12px, 1fr));
+    gap: 3px;
+  }
+  .grid span { aspect-ratio: 1; background: var(--empty); }
+  .grid .published, .sw.published { background: var(--brand); }
+  .grid .read, .sw.read { background: var(--text); }
+  .sw.empty { background: var(--empty); outline: 1px solid var(--line); }
+  .legend {
+    list-style: none;
+    margin: 16px 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 24px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+  li { display: inline-flex; align-items: center; gap: 8px; }
+  strong { color: var(--text); font-weight: 600; }
+  .sw { width: 10px; height: 10px; display: inline-block; }
+</style>

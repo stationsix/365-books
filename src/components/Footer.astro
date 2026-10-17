@@ -1,0 +1,53 @@
+---
+import { url } from '../lib/url';
+---
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <a class="wordmark" href={url('/')}>365<span>_</span>BOOKS</a>
+      <p>
+        Summaries of 365 essential business books, written by Claude (Anthropic) and checked by a
+        separate review pass. Every key concept is tagged Transcends, Evolves or Expires for the AI era.
+      </p>
+    </div>
+    <ul class="label">
+      <li><a href={url('/how-its-made/')}>How it's made</a></li>
+      <li><a href={url('/reader-zero/')}>Reader zero</a></li>
+      <li><a href="https://github.com/stationsix/365-books">Source on GitHub</a></li>
+    </ul>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--line);
+    margin-top: calc(var(--section-gap) * 1.5);
+    padding: 32px 0 40px;
+  }
+  .site-footer__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px 48px;
+    flex-wrap: wrap;
+  }
+  .site-footer__inner > div { max-width: 560px; }
+  .wordmark {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .wordmark span { color: var(--brand); }
+  p { color: var(--muted); font-size: 15px; margin: 12px 0 0; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  li a:hover { color: var(--text); }
+</style>

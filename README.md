@@ -1,43 +1,38 @@
-# Astro Starter Kit: Minimal
+# 365 Books
 
-```sh
-npm create astro@latest -- --template minimal
-```
+AI-written summaries of 365 essential business books, each key concept tagged Transcends, Evolves or Expires for the AI era.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Live site: https://stationsix.github.io/365-books/
 
-## 🚀 Project Structure
+Built with [Astro](https://astro.build) and deployed to GitHub Pages by GitHub Actions.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Commands
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+| Command | What it does |
+| --- | --- |
+| `npm install` | Install dependencies |
+| `npm run dev` | Local dev server at http://localhost:4321/365-books/ |
+| `npm run build` | Build the site into `dist/`. Fails if any book breaks the schema. |
+| `npm run preview` | Serve the built `dist/` locally |
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Where things live
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+| Path | What it is |
+| --- | --- |
+| `src/content/books/` | One markdown file per book. The file name is the URL slug. |
+| `src/content.config.ts` | The books schema (front matter rules) |
+| `src/data/themes.json` | The 12 themes, slugs and target counts |
+| `src/plugins/rehype-book.mjs` | Turns summary markdown into the page design (sections, concept rows, prompt blocks, scorecard) |
+| `src/pages/` | Routes: home, `books/[slug]`, `how-its-made`, `reader-zero` |
+| `src/styles/` | Global tokens and the book page styles |
+| `.github/workflows/deploy.yml` | Build and deploy on every push to `main` |
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Adding a book
 
-## 🧞 Commands
+1. Copy the approved summary into `src/content/books/<slug>.md`.
+2. Run `npm run build`. If the front matter is wrong, the error names the file and field.
+3. Only books with status `verified` or `published` get a public page.
 
-All commands are run from the root of the project, from a terminal:
+If you change `src/plugins/rehype-book.mjs`, delete `node_modules/.astro` before building, because Astro caches rendered markdown.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Planning, drafts and verification notes live in the 365_Books_Project Google Drive folder, not here.

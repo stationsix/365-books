@@ -1,0 +1,42 @@
+# Builds the site and publishes it to GitHub Pages on every push to main.
+# Live at https://stationsix.github.io/365-books/
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Adds a "Run workflow" button on the repo's Actions tab.
+  workflow_dispatch:
+
+# Read the repo, write to Pages, and prove to Pages who is deploying.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Run one deploy at a time, and let one that has started finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+      # Installs dependencies, runs `npm run build` (which enforces the books
+      # schema), and uploads dist/ for the deploy job.
+      - name: Install, build and upload the site
+        uses: withastro/action@v6
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

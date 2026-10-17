@@ -1,0 +1,79 @@
+---
+import { url } from '../lib/url';
+
+const nav = [
+  { label: 'Library', href: url('/#library') },
+  { label: 'Themes', href: url('/#themes') },
+  { label: 'Scoreboard', href: url('/#scoreboard') },
+  { label: 'Reader zero', href: url('/reader-zero/') },
+  { label: "How it's made", href: url('/how-its-made/') },
+];
+const current = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="wordmark" href={url('/')} aria-label="365 Books home">365<span>_</span>BOOKS</a>
+    <nav aria-label="Main">
+      <ul>
+        {nav.map((item) => (
+          <li>
+            <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>{item.label}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header { border-bottom: 1px solid var(--line); }
+  .site-header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 24px;
+    flex-wrap: wrap;
+    min-height: 72px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .wordmark {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .wordmark span { color: var(--brand); }
+  .wordmark:hover { color: var(--text); }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 20px;
+  }
+  nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  nav a:hover, nav a[aria-current='page'] { color: var(--text); }
+  @media (max-width: 640px) {
+    .site-header__inner { padding-top: 12px; padding-bottom: 4px; }
+    ul { gap: 0 16px; }
+  }
+</style>

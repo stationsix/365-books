@@ -1,0 +1,52 @@
+---
+// "■ Transcends 5  ■ Evolves 2  ■ Expires 0": color always paired with a text label.
+import type { Tags } from '../lib/books';
+
+interface Props {
+  tags: Tags;
+  compact?: boolean;
+}
+const { tags, compact = false } = Astro.props;
+const items = [
+  { key: 'transcends', label: 'Transcends', short: 'T' },
+  { key: 'evolves', label: 'Evolves', short: 'E' },
+  { key: 'expires', label: 'Expires', short: 'X' },
+] as const;
+---
+
+<ul class:list={['legend', { 'legend--compact': compact }]}>
+  {items.map((i) => (
+    <li>
+      <span class={`legend__swatch legend__swatch--${i.key}`} aria-hidden="true"></span>
+      {compact ? (
+        <span><abbr title={i.label}>{i.short}</abbr> {tags[i.key]}</span>
+      ) : (
+        <span>{i.label} <strong>{tags[i.key]}</strong></span>
+      )}
+    </li>
+  ))}
+</ul>
+
+<style>
+  .legend {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+  .legend--compact { font-size: 12px; gap: 4px 12px; }
+  li { display: inline-flex; align-items: center; gap: 8px; }
+  strong { color: var(--text); font-weight: 600; }
+  abbr { text-decoration: none; }
+  .legend__swatch { width: 10px; height: 10px; display: inline-block; }
+  .legend__swatch--transcends { background: var(--transcends); }
+  .legend__swatch--evolves { background: var(--evolves); }
+  .legend__swatch--expires { background: var(--expires); }
+</style>

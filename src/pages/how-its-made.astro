@@ -1,0 +1,116 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/url';
+
+const personas = [
+  { name: 'The Operator', take: 'Will this help someone run a team or a business on Monday?' },
+  { name: 'The Professor', take: 'Is it rigorous, original and influential in its field?' },
+  { name: 'The Skeptic', take: 'Does it rest on evidence, or on stories and fluff?' },
+  { name: 'The Mindset Coach', take: 'Does it change how a reader thinks and acts?' },
+  { name: 'The Modernist', take: 'Does it still matter in an AI-shaped world?' },
+  { name: "The Reader's Advocate", take: 'Is it clear, readable and worth the time?' },
+];
+---
+
+<Base title="How it's made" description="How 365 Books picks, writes, checks and tags each summary.">
+  <article class="container page">
+    <header>
+      <p class="label">Method</p>
+      <h1>How it's made</h1>
+      <p class="lead">
+        365 business books in 12 themes, released in batches. Every summary is written by AI, and this
+        page explains exactly how.
+      </p>
+    </header>
+
+    <section class="section">
+      <h2 class="section-header"><span class="num">01</span> / Selection</h2>
+      <p>
+        Each theme starts with a long list drawn from public best-of lists, Claude's own nominations
+        from the canon, and 3 to 5 wildcard picks from each panel persona. Every candidate gets two
+        scores from 1 to 5: a weighted rubric score and a panel score (the average of six personas).
+        The final score is the average of the two.
+      </p>
+      <p>
+        Books near the cutoff go to a debate, which also settles overlaps, author caps and theme
+        placement. Each book appears in one theme only.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-header"><span class="num">02</span> / The panel</h2>
+      <ul class="personas">
+        {personas.map((p) => (
+          <li><strong>{p.name}</strong><span>{p.take}</span></li>
+        ))}
+      </ul>
+      <p class="note">
+        The personas and all scores are Claude's judgment, not data. Every book page shows its persona
+        scorecard under "How it made the list".
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-header"><span class="num">03</span> / Writing</h2>
+      <p>
+        Summaries describe each book in the third person, in the book's own flavor, never as the author
+        speaking. Each one quotes the book at most twice, briefly, and only with verified quotes.
+      </p>
+      <p>
+        The AI-era lens is separate and labeled <span class="ai-badge">AI analysis</span>. It uses one
+        house voice and never guesses what an author thinks about AI. It tags every key concept:
+      </p>
+      <dl class="verdicts">
+        <div><dt><span class="tag tag--transcends">Transcends</span></dt><dd>Holds up as is, or matters more because of AI.</dd></div>
+        <div><dt><span class="tag tag--evolves">Evolves</span></dt><dd>The principle holds, but how you apply it changes.</dd></div>
+        <div><dt><span class="tag tag--expires">Expires</span></dt><dd>Tied to a way of working that AI is replacing.</dd></div>
+      </dl>
+    </section>
+
+    <section class="section">
+      <h2 class="section-header"><span class="num">04</span> / Verification</h2>
+      <p>
+        Before a summary counts as verified, a separate review pass checks it against outside sources
+        and corrects what it can't confirm. Each page lists its sources, what the review changed, and a
+        confidence level (high or medium).
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-header"><span class="num">05</span> / AI disclosure</h2>
+      <p>
+        The summaries, the AI-era lens and the scores are written by Claude (Anthropic). Joe chooses the
+        themes, approves each batch, and reads the books over time as
+        <a href={url('/reader-zero/')}>reader zero</a>. A summary is not a substitute for reading the
+        book. If you spot an error, use "Report a correction" at the bottom of any book page.
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .page { padding-top: 48px; }
+  .page header .lead { margin-top: 24px; max-width: 760px; }
+  .page p { max-width: 72ch; }
+  .num { color: var(--text); }
+  .personas {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .personas li { background: var(--bg); padding: 16px 20px; display: grid; gap: 4px; }
+  .personas span { color: var(--muted); font-size: 15px; }
+  .note { color: var(--muted); font-size: 15px; }
+  .verdicts { margin: 16px 0 0; display: grid; gap: 12px; }
+  .verdicts div { display: grid; grid-template-columns: 130px 1fr; gap: 16px; align-items: baseline; }
+  .verdicts dt, .verdicts dd { margin: 0; }
+  @media (max-width: 640px) {
+    .personas { grid-template-columns: 1fr; }
+    .verdicts div { grid-template-columns: 1fr; gap: 6px; }
+  }
+</style>
