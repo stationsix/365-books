@@ -29,8 +29,13 @@ Built with [Astro](https://astro.build) and deployed to GitHub Pages by GitHub A
 
 ## Adding a book
 
+Every summary follows `00_context/2026-10-16_365books_summary-template_v02.md` in the Drive project folder.
+
 1. Copy the approved summary into `src/content/books/<slug>.md`.
-2. Run `npm run build`. If the front matter is wrong, the error names the file and field.
+2. Run `npm run build`. It fails, naming the file, if:
+   - the front matter breaks the schema in `src/content.config.ts`
+   - a fixed section heading is missing
+   - there aren't 5 to 7 key concepts, or the `tags` counts don't match the concept headings
 3. Only books with status `verified` or `published` get a public page.
 
 If you change `src/plugins/rehype-book.mjs`, delete `node_modules/.astro` before building, because Astro caches rendered markdown.

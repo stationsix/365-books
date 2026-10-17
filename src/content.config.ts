@@ -1,5 +1,8 @@
 // Content collections: Astro reads every book file, checks its front matter
 // against the schema below, and fails the build if anything doesn't match.
+// Follows 00_context/2026-10-16_365books_summary-template_v02.md. Rules that
+// need the body (tag counts vs. headings, required sections) are checked in
+// src/plugins/rehype-book.mjs.
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
@@ -8,7 +11,8 @@ import themes from './data/themes.json';
 const themeSlugs = themes.map((t) => t.slug) as [string, ...string[]];
 
 const count = z.number().int().min(0);
-const score = z.number().min(0).max(5);
+const persona = z.number().int().min(1).max(5);
+const score = z.number().min(1).max(5);
 
 const books = defineCollection({
   // Each file in src/content/books/ is one book; the file name is its slug.
@@ -30,18 +34,18 @@ const books = defineCollection({
     license: z.string().optional(),
     tags: z.strictObject({ transcends: count, evolves: count, expires: count }),
     panel: z.strictObject({
-      operator: score,
-      professor: score,
-      skeptic: score,
-      coach: score,
-      modernist: score,
-      advocate: score,
+      operator: persona,
+      professor: persona,
+      skeptic: persona,
+      coach: persona,
+      modernist: persona,
+      advocate: persona,
       rubric: score,
       panel: score,
       final: score,
     }),
     nominated_by: z.string(),
-    sources: z.array(z.string()),
+    sources: z.array(z.url()).min(1),
     joe_read: z.coerce.date().nullable(),
     joe_rating: z.number().nullable(),
     joe_note: z.string().nullable(),

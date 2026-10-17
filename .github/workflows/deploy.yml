@@ -29,6 +29,10 @@ jobs:
       # schema), and uploads dist/ for the deploy job.
       - name: Install, build and upload the site
         uses: withastro/action@v6
+        with:
+          # Astro's cache keeps rendered markdown and doesn't notice changes to
+          # src/plugins/rehype-book.mjs, so always build fresh (it takes seconds).
+          cache: false
 
   deploy:
     needs: build

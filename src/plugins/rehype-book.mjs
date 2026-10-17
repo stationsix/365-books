@@ -208,12 +208,59 @@ function scorecard(nodes) {
   return [grid, ...rest.flat()];
 }
 
+// ---- Template checks (00_context summary template v02) ----
+// The schema in content.config.ts can only see front matter. These rules need
+// the body too, so they live here and fail the build with a clear message.
+const REQUIRED_SECTIONS = [
+  'At a glance',
+  'The big idea',
+  'Key concepts',
+  'The AI-era lens',
+  'Apply it with AI',
+  'Critiques and caveats',
+  'Read it or skip it',
+  'Related books',
+  'How this summary was made',
+  'How it made the list',
+];
+
+function checkBook(groups, frontmatter, file) {
+  const name = file.path || file.history?.[0] || 'a book file';
+  const fail = (msg) => {
+    throw new Error(`${name}: ${msg}`);
+  };
+  const titles = groups.map((g) => g.title.toLowerCase());
+  const missing = REQUIRED_SECTIONS.filter((s) => !titles.includes(s.toLowerCase()));
+  if (missing.length) fail(`missing section(s): ${missing.map((s) => `"## ${s}"`).join(', ')}`);
+
+  const concepts = groups.find((g) => g.title.toLowerCase() === 'key concepts');
+  const counts = { transcends: 0, evolves: 0, expires: 0 };
+  for (const n of concepts.body) {
+    if (!isEl(n, 'h3')) continue;
+    const m = text(n).trim().match(CONCEPT_RE);
+    if (!m) fail(`key concept heading "${text(n).trim()}" must look like "### 1. Name · Transcends"`);
+    counts[m[3].toLowerCase()]++;
+  }
+  const total = counts.transcends + counts.evolves + counts.expires;
+  if (total < 5 || total > 7) fail(`has ${total} key concepts; the template asks for 5 to 7`);
+
+  const tags = frontmatter.tags;
+  const fmt = (t) => `transcends ${t.transcends}, evolves ${t.evolves}, expires ${t.expires}`;
+  if (Object.keys(counts).some((k) => counts[k] !== tags[k])) {
+    fail(`front matter tags (${fmt(tags)}) don't match the key concept headings (${fmt(counts)})`);
+  }
+}
+
 export default function rehypeBook() {
-  return (tree) => {
+  return (tree, file) => {
     promptCounter = 0;
     const nodes = tree.children.filter((n) => !isBlank(n));
     const { intro, groups } = splitAt(nodes, 'h2');
     if (!groups.length) return;
+
+    // Only book files carry tags in their front matter.
+    const frontmatter = file.data?.astro?.frontmatter;
+    if (frontmatter?.tags) checkBook(groups, frontmatter, file);
 
     const out = [...intro];
     let num = 0;
