@@ -23,7 +23,7 @@ Live: https://stationsix.github.io/365-books/ (deploys on every push to `main`).
 ## Next
 - Batch 1 (Strategy): summarize the remaining 27 picks in rank order.
 - Batch 2 (Innovation and Technology): selection approved. Ranks 1 to 3 verified (Innovator's Dilemma, Mythical Man-Month, Design of Everyday Things); continue in rank order.
-- Batch 3 (Mindset for Builders): selection drafted, awaiting Joe's approval. Ranks 1 to 3 verified (Mindset, Flow, Man's Search for Meaning; Frankl is medium confidence, check two passages against a print copy).
-- Batch 4 (Management, Teams and Culture): selection drafted, awaiting Joe's approval (flag 1: The Practice of Management uses Drucker's last slot, which keeps The Effective Executive out of Habits). Ranks 1 to 3 verified (High Output Management, The Fearless Organization, Radical Candor).
+- Batch 3 (Mindset for Builders): selection approved. Ranks 1 to 3 verified (Mindset, Flow, Man's Search for Meaning; Frankl is medium confidence, check two passages against a print copy).
+- Batch 4 (Management, Teams and Culture): selection approved (Work Rules! replaced The Practice of Management; The Effective Executive is Drucker's pick for Habits). Ranks 1 to 3 verified (High Output Management, The Fearless Organization, Radical Candor).
 - Batch 5 selection: next theme to be chosen.
 - Site: progress logging via GitHub Issue form + Action, Pagefind search, Amazon affiliate tag (after ~20 summaries), custom domain once there's content.

@@ -1,6 +1,6 @@
 # Batch 3: Mindset for Builders (theme 1), v01
 
-Status: **draft for Joe's review**. 68 candidates scored, 35 picks, 5 alternates, 1 routed out after scoring. Six books routed here from Batches 1 and 2 carry their scores over unchanged.
+Status: **approved by Joe (2026-11-22)** as drafted; flags 1 and 3 accepted. 68 candidates scored, 35 picks, 5 alternates, 1 routed out after scoring. Six books routed here from Batches 1 and 2 carry their scores over unchanged.
 
 ## How to review
 Mark each pick **approve**, **veto** or **swap**. Anything you don't mark counts as approved. Three calls are flagged for you below (*The 7 Habits* placement, the two contested studies at the top, and the era skew).

@@ -1,6 +1,6 @@
 # Batch 4: Management, Teams and Culture (theme 6), v01
 
-Status: **draft for Joe's review**. 68 candidates scored, 30 picks, 5 alternates, 2 routed to other themes. Eleven books were routed here from Batches 1 to 3; the six already scored in Batch 1 or 2 carry their scores over unchanged.
+Status: **approved by Joe (2026-11-22)** with one change: *Work Rules!* replaces *The Practice of Management* (flag 1). Originally drafted with 68 candidates scored, 30 picks, 5 alternates, 2 routed to other themes. Eleven books were routed here from Batches 1 to 3; the six already scored in Batch 1 or 2 carry their scores over unchanged.
 
 ## How to review
 Mark each pick **approve**, **veto** or **swap**. Anything you don't mark counts as approved. Three calls are flagged for you below (Drucker's last slot, *The Principles of Scientific Management*, and the AI-and-work books that lost).
@@ -28,36 +28,36 @@ Persona scores: Operator / Professor / Skeptic / Mindset Coach / Modernist / Rea
 | 5 | *Crucial Conversations* | Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler | 2002 | 4.12 | 5 / 3 / 3 / 4 / 4 / 4 | Public lists |
 | 6 | *Drive* | Daniel H. Pink | 2009 | 4.09 | 3 / 3 / 3 / 5 / 4 / 5 | Public lists |
 | 7 | *The Human Side of Enterprise* | Douglas McGregor | 1960 | 4.09 | 3 / 5 / 4 / 4 / 4 / 3 | Professor |
-| 8 | *The Practice of Management* | Peter F. Drucker | 1954 | 4.08 | 4 / 5 / 4 / 2 / 4 / 3 | Claude (canon) |
-| 9 | *The Five Dysfunctions of a Team* | Patrick Lencioni | 2002 | 4.08 | 5 / 2 / 2 / 4 / 4 / 5 | Public lists |
-| 10 | *The Fifth Discipline* | Peter M. Senge | 1990 | 4.06 | 3 / 5 / 3 / 4 / 5 / 3 | Public lists |
-| 11 | *The Coaching Habit* | Michael Bungay Stanier | 2016 | 4.05 | 5 / 2 / 3 / 5 / 4 / 5 | Public lists |
-| 12 | *Peopleware* | Tom DeMarco, Timothy Lister | 1987 | 4.02 | 4 / 4 / 4 / 3 / 4 / 4 | Public lists |
-| 13 | *Thanks for the Feedback* | Douglas Stone, Sheila Heen | 2014 | 3.95 | 4 / 4 / 4 / 4 / 4 / 4 | Mindset Coach |
-| 14 | *The Culture Code* | Daniel Coyle | 2018 | 3.89 | 4 / 3 / 3 / 4 / 4 / 5 | Public lists |
-| 15 | *Creativity, Inc.* | Ed Catmull, Amy Wallace | 2014 | 3.89 | 4 / 3 / 3 / 5 / 3 / 5 | Mindset Coach |
-| 16 | *Nine Lies About Work* | Marcus Buckingham, Ashley Goodall | 2019 | 3.88 | 4 / 4 / 5 / 3 / 4 / 4 | Skeptic |
-| 17 | *The Knowledge-Creating Company* | Ikujiro Nonaka, Hirotaka Takeuchi | 1995 | 3.88 | 3 / 5 / 4 / 2 / 5 / 2 | Professor |
-| 18 | *Team Topologies* | Matthew Skelton, Manuel Pais | 2019 | 3.85 | 5 / 3 / 3 / 2 / 5 / 3 | Modernist |
-| 19 | *Leading Teams* | J. Richard Hackman | 2002 | 3.84 | 4 / 5 / 5 / 2 / 4 / 3 | Professor |
-| 20 | *The Progress Principle* | Teresa Amabile, Steven Kramer | 2011 | 3.83 | 4 / 5 / 4 / 4 / 4 / 3 | Professor |
-| 21 | *Maverick* | Ricardo Semler | 1993 | 3.83 | 3 / 3 / 3 / 5 / 4 / 4 | Mindset Coach |
-| 22 | *The Making of a Manager* | Julie Zhuo | 2019 | 3.81 | 5 / 2 / 3 / 4 / 3 / 5 | Public lists |
-| 23 | *The No Asshole Rule* | Robert I. Sutton | 2007 | 3.81 | 4 / 3 / 4 / 3 / 3 / 5 | Claude (canon) |
-| 24 | *No Rules Rules* | Reed Hastings, Erin Meyer | 2020 | 3.79 | 4 / 3 / 3 / 3 / 4 / 5 | Claude (canon) |
-| 25 | *Humanocracy* | Gary Hamel, Michele Zanini | 2020 | 3.69 | 4 / 3 / 3 / 3 / 5 / 4 | Public lists |
-| 26 | *Who* | Geoff Smart, Randy Street | 2008 | 3.67 | 5 / 2 / 3 / 2 / 4 / 4 | Operator |
-| 27 | *First, Break All the Rules* | Marcus Buckingham, Curt Coffman | 1999 | 3.67 | 4 / 4 / 3 / 3 / 3 / 4 | Public lists |
+| 8 | *The Five Dysfunctions of a Team* | Patrick Lencioni | 2002 | 4.08 | 5 / 2 / 2 / 4 / 4 / 5 | Public lists |
+| 9 | *The Fifth Discipline* | Peter M. Senge | 1990 | 4.06 | 3 / 5 / 3 / 4 / 5 / 3 | Public lists |
+| 10 | *The Coaching Habit* | Michael Bungay Stanier | 2016 | 4.05 | 5 / 2 / 3 / 5 / 4 / 5 | Public lists |
+| 11 | *Peopleware* | Tom DeMarco, Timothy Lister | 1987 | 4.02 | 4 / 4 / 4 / 3 / 4 / 4 | Public lists |
+| 12 | *Thanks for the Feedback* | Douglas Stone, Sheila Heen | 2014 | 3.95 | 4 / 4 / 4 / 4 / 4 / 4 | Mindset Coach |
+| 13 | *The Culture Code* | Daniel Coyle | 2018 | 3.89 | 4 / 3 / 3 / 4 / 4 / 5 | Public lists |
+| 14 | *Creativity, Inc.* | Ed Catmull, Amy Wallace | 2014 | 3.89 | 4 / 3 / 3 / 5 / 3 / 5 | Mindset Coach |
+| 15 | *Nine Lies About Work* | Marcus Buckingham, Ashley Goodall | 2019 | 3.88 | 4 / 4 / 5 / 3 / 4 / 4 | Skeptic |
+| 16 | *The Knowledge-Creating Company* | Ikujiro Nonaka, Hirotaka Takeuchi | 1995 | 3.88 | 3 / 5 / 4 / 2 / 5 / 2 | Professor |
+| 17 | *Team Topologies* | Matthew Skelton, Manuel Pais | 2019 | 3.85 | 5 / 3 / 3 / 2 / 5 / 3 | Modernist |
+| 18 | *Leading Teams* | J. Richard Hackman | 2002 | 3.84 | 4 / 5 / 5 / 2 / 4 / 3 | Professor |
+| 19 | *The Progress Principle* | Teresa Amabile, Steven Kramer | 2011 | 3.83 | 4 / 5 / 4 / 4 / 4 / 3 | Professor |
+| 20 | *Maverick* | Ricardo Semler | 1993 | 3.83 | 3 / 3 / 3 / 5 / 4 / 4 | Mindset Coach |
+| 21 | *The Making of a Manager* | Julie Zhuo | 2019 | 3.81 | 5 / 2 / 3 / 4 / 3 / 5 | Public lists |
+| 22 | *The No Asshole Rule* | Robert I. Sutton | 2007 | 3.81 | 4 / 3 / 4 / 3 / 3 / 5 | Claude (canon) |
+| 23 | *No Rules Rules* | Reed Hastings, Erin Meyer | 2020 | 3.79 | 4 / 3 / 3 / 3 / 4 / 5 | Claude (canon) |
+| 24 | *Humanocracy* | Gary Hamel, Michele Zanini | 2020 | 3.69 | 4 / 3 / 3 / 3 / 5 / 4 | Public lists |
+| 25 | *Who* | Geoff Smart, Randy Street | 2008 | 3.67 | 5 / 2 / 3 / 2 / 4 / 4 | Operator |
+| 26 | *First, Break All the Rules* | Marcus Buckingham, Curt Coffman | 1999 | 3.67 | 4 / 4 / 3 / 3 / 3 / 4 | Public lists |
+| 27 | *Work Rules!* | Laszlo Bock | 2015 | 3.66 | 4 / 4 / 3 / 3 / 4 / 4 | Claude (canon) |
 | 28 | *An Everyone Culture* | Robert Kegan, Lisa Laskow Lahey | 2016 | 3.66 | 3 / 5 / 3 / 4 / 4 / 3 | Mindset Coach |
 | 29 | *Organizational Culture and Leadership* | Edgar H. Schein | 1985 | 3.63 | 3 / 5 / 4 / 2 / 3 / 2 | Public lists |
 | 30 | *The Principles of Scientific Management* | Frederick Winslow Taylor | 1911 | 3.56 | 2 / 5 / 4 / 1 / 5 / 2 | Claude (canon) |
 
 Ties are broken by panel score, then by the Operator's score as the theme's lead persona. That puts *Radical Candor* 3rd and *Crucial Conversations* 5th on the same 4.12.
 
-**Balance check:** era: 3 pre-1980 · 13 from 1980 to 2009 · 14 from 2010 on, the most even spread of any batch. Origin: 20 US, 4 non-US (Semler, Nonaka and Takeuchi, Bungay Stanier, Skelton and Pais), 6 mixed (Grove, Drucker, Schein, Meyer twice, the Hamel and Zanini and Buckingham and Goodall teams). Women authors: 9 of 30 books (Edmondson, Scott, Meyer twice, Heen, Wallace, Amabile, Zhuo, Lahey). Japan, Brazil and Europe are each represented once; the strongest non-US book left out is *Amoeba Management* (Inamori, 3.33).
+**Balance check:** era: 2 pre-1980 · 13 from 1980 to 2009 · 15 from 2010 on (after the Drucker swap), still the most even spread of any batch. Origin: 21 US, 4 non-US (Semler, Nonaka and Takeuchi, Bungay Stanier, Skelton and Pais), 5 mixed (Grove, Schein, Meyer twice, the Hamel and Zanini and Buckingham and Goodall teams). Women authors: 9 of 30 books (Edmondson, Scott, Meyer twice, Heen, Wallace, Amabile, Zhuo, Lahey). Japan, Brazil and Europe are each represented once; the strongest non-US book left out is *Amoeba Management* (Inamori, 3.33).
 
 ## Flagged for Joe
-1. **Drucker's last slot.** *The Practice of Management* (8th) uses Drucker's second and final slot, after *Innovation and Entrepreneurship* in Batch 2. That means *The Effective Executive* cannot go into Habits, Focus and Performance, where it was the expected Drucker pick. The panel's case: *Practice* is the founding text of the whole management field (management by objectives, "the purpose of a business is to create a customer"), and this is the theme it founded. The alternative is to leave *Practice* out here and save the slot for *The Effective Executive*; the 31st-ranked book (*Work Rules!*) would take its place.
+1. **Drucker's last slot. Decided by Joe (2026-11-22): saved for *The Effective Executive* in Habits, Focus and Performance; *Work Rules!* takes the slot here and *The Practice of Management* becomes an alternate.** Original flag: *The Practice of Management* (8th) uses Drucker's second and final slot, after *Innovation and Entrepreneurship* in Batch 2. That means *The Effective Executive* cannot go into Habits, Focus and Performance, where it was the expected Drucker pick. The panel's case: *Practice* is the founding text of the whole management field (management by objectives, "the purpose of a business is to create a customer"), and this is the theme it founded. The alternative is to leave *Practice* out here and save the slot for *The Effective Executive*; the 31st-ranked book (*Work Rules!*) would take its place.
 2. ***The Principles of Scientific Management* lifted from 40th** (debate 6). Taylor scored a 1 from the Mindset Coach and 2s from the Operator and the Reader's Advocate. It's in because algorithmic management is Taylorism with better instruments, and the Modernist argued no book on the list is a sharper Expires-or-Transcends test. If you'd rather keep a working manager's book in that slot, *Work Rules!* is the first alternate.
 3. **The AI-and-work books lost.** The Modernist's *Human + Machine* (3.44) and *Working with AI* (3.44) both missed. The panel's view: they are consulting case collections that will date fast, and every summary on the site already carries an AI-era lens. The theme has no book written about managing alongside AI. Accept it, or ask for a targeted round once a stronger candidate exists.
 
@@ -118,7 +118,7 @@ Up to three per theme from books that missed the list (alternates allowed). A **
 ## Alternates
 | Title | Author | Final | Nominated by | Why not a pick |
 | --- | --- | --- | --- | --- |
-| *Work Rules!* | Laszlo Bock | 3.66 | Claude (canon) | Lost its slot to *The Principles of Scientific Management* (4 to 2); overlaps *No Rules Rules* |
+| *The Practice of Management* | Peter F. Drucker | 4.08 | Claude (canon) | Joe saved Drucker's last slot for *The Effective Executive* (Habits) |
 | *Hard Facts, Dangerous Half-Truths and Total Nonsense* | Jeffrey Pfeffer, Robert I. Sutton | 3.63 | Skeptic | Tied with Schein; lost the last culture slot 4 to 2 |
 | *The Manager's Path* | Camille Fournier | 3.62 | Public lists | Overlaps *The Making of a Manager*; the stronger engineering-manager pick |
 | *The Alliance* | Reid Hoffman, Ben Casnocha, Chris Yeh | 3.61 | Public lists | Below cutoff; the best book on the employer-employee deal |

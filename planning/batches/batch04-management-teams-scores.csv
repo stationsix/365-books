@@ -6,7 +6,7 @@ pick,The Culture Map,Erin Meyer,2014,mixed,Reader's Advocate,Wildcard,4.12,4.25,
 pick,Crucial Conversations,"Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler",2002,US,Public lists,SF;TB,4.12,4.4,3.83,5,3,3,4,4,4,5,4,4,5,4,4,,High-stakes conversations at work
 pick,Drive,Daniel H. Pink,2009,US,Public lists,SF;Routed from Mindset,4.09,4.35,3.83,3,3,3,5,4,5,5,4,4,4,4,5,,"Autonomy, mastery, purpose"
 pick,The Human Side of Enterprise,Douglas McGregor,1960,US,Professor,Wildcard,4.09,4.35,3.83,3,5,4,4,4,3,5,5,5,3,4,3,,Theory X and Theory Y
-pick,The Practice of Management,Peter F. Drucker,1954,mixed,Claude (canon),K;Routed from Strategy,4.08,4.5,3.67,4,5,4,2,4,3,5,5,5,4,4,3,,Founding text; management by objectives
+alternate,The Practice of Management,Peter F. Drucker,1954,mixed,Claude (canon),K;Routed from Strategy,4.08,4.5,3.67,4,5,4,2,4,3,5,5,5,4,4,3,Joe saved Drucker's last slot for The Effective Executive in Habits; Work Rules! takes the slot,Founding text; management by objectives
 pick,The Five Dysfunctions of a Team,Patrick Lencioni,2002,US,Public lists,SF;SC;TB;IT;PI,4.08,4.5,3.67,5,2,2,4,4,5,5,4,4,5,4,5,,"Trust to results pyramid, as a fable"
 pick,The Fifth Discipline,Peter M. Senge,1990,US,Public lists,SF,4.06,4.3,3.83,3,5,3,4,5,3,5,4,5,3,5,3,,The learning organization
 pick,The Coaching Habit,Michael Bungay Stanier,2016,non-US,Public lists,SF,4.05,4.1,4.0,5,2,3,5,4,5,4,4,3,5,4,5,,Seven coaching questions
@@ -29,7 +29,7 @@ pick,"First, Break All the Rules","Marcus Buckingham, Curt Coffman",1999,US,Publ
 pick,An Everyone Culture,"Robert Kegan, Lisa Laskow Lahey",2016,US,Mindset Coach,IT;Wildcard,3.66,3.65,3.67,3,5,3,4,4,3,3,4,5,3,4,3,,Deliberately developmental organizations
 pick,Organizational Culture and Leadership,Edgar H. Schein,1985,mixed,Public lists,PI,3.63,4.1,3.17,3,5,4,2,3,2,5,5,5,3,3,2,,"Artifacts, values, basic assumptions"
 pick,The Principles of Scientific Management,Frederick Winslow Taylor,1911,US,Claude (canon),K,3.56,3.95,3.17,2,5,4,1,5,2,5,3,5,2,5,3,,Taylorism; the algorithmic-management test
-alternate,Work Rules!,Laszlo Bock,2015,US,Claude (canon),K,3.66,3.65,3.67,4,4,3,3,4,4,4,3,3,4,4,4,Lost its slot to The Principles of Scientific Management (4 to 2); overlaps No Rules Rules,Google people operations
+pick,Work Rules!,Laszlo Bock,2015,US,Claude (canon),K,3.66,3.65,3.67,4,4,3,3,4,4,4,3,3,4,4,4,Took The Practice of Management's slot (Joe saved Drucker for The Effective Executive),Google people operations
 alternate,"Hard Facts, Dangerous Half-Truths and Total Nonsense","Jeffrey Pfeffer, Robert I. Sutton",2006,US,Skeptic,Wildcard (carried from Batch 1),3.63,3.6,3.67,4,4,5,2,3,4,3,4,4,4,3,4,Tied with Schein; lost the last culture slot 4 to 2,Carried from Batch 1
 alternate,The Manager's Path,Camille Fournier,2017,US,Public lists,SF,3.62,3.75,3.5,5,2,3,3,4,4,3,4,3,5,4,4,Overlaps The Making of a Manager; the stronger engineering-manager pick,Engineering management ladder
 alternate,The Alliance,"Reid Hoffman, Ben Casnocha, Chris Yeh",2014,US,Public lists,PI,3.61,3.55,3.67,4,3,3,3,5,4,3,3,4,4,4,4,Below cutoff; the best book on the employer-employee deal,Tours of duty
@@ -48,7 +48,7 @@ cut,Human + Machine,"Paul R. Daugherty, H. James Wilson",2018,US,Modernist,Wildc
 cut,Working with AI,"Thomas H. Davenport, Steven M. Miller",2022,US,Modernist,Wildcard,3.44,3.2,3.67,4,4,4,2,5,3,2,3,3,4,5,3,"Below cutoff; case collection, little theory",29 case studies of people working with AI
 cut,The One Minute Manager,"Ken Blanchard, Spencer Johnson",1982,US,Public lists,SF;SC,3.42,3.85,3.0,3,1,2,4,3,5,5,3,3,4,3,5,Below cutoff,"One-minute goals, praisings, redirects"
 cut,The Peter Principle,"Laurence J. Peter, Raymond Hull",1969,mixed,Skeptic,Wildcard,3.35,3.7,3.0,3,3,3,2,3,4,4,4,5,2,3,4,Below cutoff,Rising to incompetence
-cut,Managing for Results,Peter F. Drucker,1964,US,Claude (canon),K (carried from Batch 1),3.34,3.35,3.33,4,4,3,3,3,3,3,4,3,4,3,3,Drucker author cap (The Practice of Management takes his last slot),Carried from Batch 1
+cut,Managing for Results,Peter F. Drucker,1964,US,Claude (canon),K (carried from Batch 1),3.34,3.35,3.33,4,4,3,3,3,3,3,4,3,4,3,3,Drucker author cap (his last slot goes to The Effective Executive in Habits),Carried from Batch 1
 cut,What You Do Is Who You Are,Ben Horowitz,2019,US,Reader's Advocate,Wildcard,3.34,3.35,3.33,4,2,2,4,3,5,3,3,3,4,3,5,Below cutoff,Culture as behavior
 cut,Trillion Dollar Coach,"Eric Schmidt, Jonathan Rosenberg, Alan Eagle",2019,US,Operator,Wildcard,3.34,3.35,3.33,4,2,2,4,3,5,3,3,3,4,3,5,Below cutoff,Bill Campbell's coaching
 cut,Execution,"Larry Bossidy, Ram Charan",2002,mixed,Public lists,BI (carried from Batch 1),3.33,3.5,3.17,5,3,2,3,2,4,4,3,3,4,3,4,Below cutoff,Carried from Batch 1
