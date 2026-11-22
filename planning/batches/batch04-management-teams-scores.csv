@@ -1,0 +1,69 @@
+status,title,author,year,origin,nominator,sources,final,rubric,panel,operator,professor,skeptic,coach,modernist,advocate,inf,dur,dist,prac,ai,read,reason,note
+pick,High Output Management,Andrew S. Grove,1983,mixed,Public lists,SF;Routed from Strategy,4.62,4.9,4.33,5,4,4,3,5,5,5,5,5,5,5,4,,Managerial leverage and output
+pick,The Fearless Organization,Amy C. Edmondson,2018,US,Skeptic,Wildcard,4.5,4.5,4.5,4,5,5,4,5,4,4,5,5,4,5,4,,Psychological safety
+pick,Radical Candor,Kim Scott,2017,US,Public lists,SF;PI,4.12,4.25,4.0,5,3,3,4,4,5,4,4,4,5,4,5,,"Care personally, challenge directly"
+pick,The Culture Map,Erin Meyer,2014,mixed,Reader's Advocate,Wildcard,4.12,4.25,4.0,4,4,4,3,4,5,4,4,5,4,4,5,,Eight scales of cultural difference
+pick,Crucial Conversations,"Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler",2002,US,Public lists,SF;TB,4.12,4.4,3.83,5,3,3,4,4,4,5,4,4,5,4,4,,High-stakes conversations at work
+pick,Drive,Daniel H. Pink,2009,US,Public lists,SF;Routed from Mindset,4.09,4.35,3.83,3,3,3,5,4,5,5,4,4,4,4,5,,"Autonomy, mastery, purpose"
+pick,The Human Side of Enterprise,Douglas McGregor,1960,US,Professor,Wildcard,4.09,4.35,3.83,3,5,4,4,4,3,5,5,5,3,4,3,,Theory X and Theory Y
+pick,The Practice of Management,Peter F. Drucker,1954,mixed,Claude (canon),K;Routed from Strategy,4.08,4.5,3.67,4,5,4,2,4,3,5,5,5,4,4,3,,Founding text; management by objectives
+pick,The Five Dysfunctions of a Team,Patrick Lencioni,2002,US,Public lists,SF;SC;TB;IT;PI,4.08,4.5,3.67,5,2,2,4,4,5,5,4,4,5,4,5,,"Trust to results pyramid, as a fable"
+pick,The Fifth Discipline,Peter M. Senge,1990,US,Public lists,SF,4.06,4.3,3.83,3,5,3,4,5,3,5,4,5,3,5,3,,The learning organization
+pick,The Coaching Habit,Michael Bungay Stanier,2016,non-US,Public lists,SF,4.05,4.1,4.0,5,2,3,5,4,5,4,4,3,5,4,5,,Seven coaching questions
+pick,Peopleware,"Tom DeMarco, Timothy Lister",1987,US,Public lists,SF,4.02,4.2,3.83,4,4,4,3,4,4,4,5,4,4,4,4,,Productive projects and teams
+pick,Thanks for the Feedback,"Douglas Stone, Sheila Heen",2014,US,Mindset Coach,Wildcard,3.95,3.9,4.0,4,4,4,4,4,4,3,4,4,5,4,4,,The receiver's side of feedback
+pick,The Culture Code,Daniel Coyle,2018,US,Public lists,SF;TB;IT,3.89,3.95,3.83,4,3,3,4,4,5,4,4,3,4,4,5,,"Safety, vulnerability, purpose in groups"
+pick,"Creativity, Inc.","Ed Catmull, Amy Wallace",2014,US,Mindset Coach,Wildcard (carried from Batch 2),3.89,3.95,3.83,4,3,3,5,3,5,4,4,4,4,3,5,,Carried from Batch 2
+pick,Nine Lies About Work,"Marcus Buckingham, Ashley Goodall",2019,mixed,Skeptic,Wildcard,3.88,3.75,4.0,4,4,5,3,4,4,3,4,4,4,4,4,,Myths of corporate HR practice
+pick,The Knowledge-Creating Company,"Ikujiro Nonaka, Hirotaka Takeuchi",1995,non-US,Professor,Wildcard,3.88,4.25,3.5,3,5,4,2,5,2,4,5,5,3,5,3,,Tacit and explicit knowledge
+pick,Team Topologies,"Matthew Skelton, Manuel Pais",2019,non-US,Modernist,Wildcard,3.85,4.2,3.5,5,3,3,2,5,3,4,4,4,5,5,3,,Team types and cognitive load
+pick,Leading Teams,J. Richard Hackman,2002,US,Professor,Wildcard,3.84,3.85,3.83,4,5,5,2,4,3,3,5,4,4,4,3,,Conditions for team effectiveness
+pick,The Progress Principle,"Teresa Amabile, Steven Kramer",2011,US,Professor,Wildcard,3.83,3.65,4.0,4,5,4,4,4,3,3,4,4,4,4,3,,Small wins and inner work life
+pick,Maverick,Ricardo Semler,1993,non-US,Mindset Coach,Wildcard,3.83,4.0,3.67,3,3,3,5,4,4,4,4,5,3,4,4,,Semco's radical self-management
+pick,The Making of a Manager,Julie Zhuo,2019,US,Public lists,SF,3.81,3.95,3.67,5,2,3,4,3,5,4,4,3,5,3,5,,First-time manager's guide
+pick,The No Asshole Rule,Robert I. Sutton,2007,US,Claude (canon),K,3.81,3.95,3.67,4,3,4,3,3,5,4,4,4,4,3,5,,Civility as policy
+pick,No Rules Rules,"Reed Hastings, Erin Meyer",2020,US,Claude (canon),K,3.79,3.9,3.67,4,3,3,3,4,5,4,3,4,4,4,5,,"Netflix: talent density, candor, fewer controls"
+pick,Humanocracy,"Gary Hamel, Michele Zanini",2020,mixed,Public lists,IT,3.69,3.7,3.67,4,3,3,3,5,4,3,3,4,4,5,4,,Busting bureaucracy
+pick,Who,"Geoff Smart, Randy Street",2008,US,Operator,Wildcard,3.67,4.0,3.33,5,2,3,2,4,4,4,4,3,5,4,4,,The A Method for hiring
+pick,"First, Break All the Rules","Marcus Buckingham, Curt Coffman",1999,US,Public lists,SF;RP,3.67,3.85,3.5,4,4,3,3,3,4,4,4,4,4,3,4,,Gallup Q12 and great managers
+pick,An Everyone Culture,"Robert Kegan, Lisa Laskow Lahey",2016,US,Mindset Coach,IT;Wildcard,3.66,3.65,3.67,3,5,3,4,4,3,3,4,5,3,4,3,,Deliberately developmental organizations
+pick,Organizational Culture and Leadership,Edgar H. Schein,1985,mixed,Public lists,PI,3.63,4.1,3.17,3,5,4,2,3,2,5,5,5,3,3,2,,"Artifacts, values, basic assumptions"
+pick,The Principles of Scientific Management,Frederick Winslow Taylor,1911,US,Claude (canon),K,3.56,3.95,3.17,2,5,4,1,5,2,5,3,5,2,5,3,,Taylorism; the algorithmic-management test
+alternate,Work Rules!,Laszlo Bock,2015,US,Claude (canon),K,3.66,3.65,3.67,4,4,3,3,4,4,4,3,3,4,4,4,Lost its slot to The Principles of Scientific Management (4 to 2); overlaps No Rules Rules,Google people operations
+alternate,"Hard Facts, Dangerous Half-Truths and Total Nonsense","Jeffrey Pfeffer, Robert I. Sutton",2006,US,Skeptic,Wildcard (carried from Batch 1),3.63,3.6,3.67,4,4,5,2,3,4,3,4,4,4,3,4,Tied with Schein; lost the last culture slot 4 to 2,Carried from Batch 1
+alternate,The Manager's Path,Camille Fournier,2017,US,Public lists,SF,3.62,3.75,3.5,5,2,3,3,4,4,3,4,3,5,4,4,Overlaps The Making of a Manager; the stronger engineering-manager pick,Engineering management ladder
+alternate,The Alliance,"Reid Hoffman, Ben Casnocha, Chris Yeh",2014,US,Public lists,PI,3.61,3.55,3.67,4,3,3,3,5,4,3,3,4,4,4,4,Below cutoff; the best book on the employer-employee deal,Tours of duty
+alternate,Reinventing Organizations,Frederic Laloux,2014,non-US,Claude (canon),K;Routed from Innovation,3.56,3.8,3.33,2,3,2,5,4,4,4,3,5,3,4,4,Self-management slot went to Maverick and Humanocracy,"Teal, self-managing organizations"
+routed,Give and Take,Adam Grant,2013,US,Public lists,SF,3.73,3.8,3.67,3,4,3,4,3,5,4,4,4,3,3,5,"Route to Sales, Persuasion and Negotiation","Givers, takers, matchers"
+routed,Switch,"Chip Heath, Dan Heath",2010,US,Public lists,SF,3.73,3.8,3.67,4,3,3,4,3,5,4,4,3,4,3,5,Route to Leadership,"Rider, elephant, path"
+cut,The Art of Gathering,Priya Parker,2018,US,Reader's Advocate,Wildcard,3.6,3.7,3.5,3,3,3,4,3,5,3,4,4,4,3,5,Below cutoff,Purposeful meetings
+cut,Teaming,Amy C. Edmondson,2012,US,Claude (canon),K,3.58,3.65,3.5,3,4,4,3,4,3,3,4,4,4,4,3,Overlaps The Fearless Organization (Edmondson author cap),Overlaps The Fearless Organization
+cut,It Doesn't Have to Be Crazy at Work,"Jason Fried, David Heinemeier Hansson",2018,US,Reader's Advocate,Wildcard,3.58,3.5,3.67,4,2,3,4,4,5,3,3,3,4,4,5,Below cutoff,The calm company
+cut,Bullshit Jobs,David Graeber,2018,US,Skeptic,Wildcard,3.56,3.8,3.33,2,3,3,3,5,4,4,3,5,2,5,4,Below cutoff; diagnosis with little a manager can apply,Pointless work and its causes
+cut,An Elegant Puzzle,Will Larson,2019,US,Modernist,Wildcard,3.55,3.6,3.5,5,3,3,2,5,3,3,3,4,5,4,3,Below cutoff; overlaps Team Topologies and The Manager's Path,Systems of engineering management
+cut,The Great Game of Business,"Jack Stack, Bo Burlingham",1992,US,Operator,Wildcard,3.55,3.6,3.5,5,3,3,3,3,4,3,4,4,4,3,4,Below cutoff,Open-book management
+cut,Amp It Up,Frank Slootman,2022,US,Operator,Wildcard (carried from Batch 1),3.5,3.5,3.5,5,2,2,4,3,5,3,3,3,5,3,5,Below cutoff,Carried from Batch 1
+cut,Principles,Ray Dalio,2017,US,Public lists,SF,3.48,3.8,3.17,4,2,2,4,4,3,5,3,4,3,4,3,Below cutoff,"Idea meritocracy, radical transparency"
+cut,Human + Machine,"Paul R. Daugherty, H. James Wilson",2018,US,Modernist,Wildcard,3.44,3.55,3.33,4,3,2,2,5,4,3,3,3,4,5,4,Below cutoff; dated consulting cases,Reimagining work with AI
+cut,Working with AI,"Thomas H. Davenport, Steven M. Miller",2022,US,Modernist,Wildcard,3.44,3.2,3.67,4,4,4,2,5,3,2,3,3,4,5,3,"Below cutoff; case collection, little theory",29 case studies of people working with AI
+cut,The One Minute Manager,"Ken Blanchard, Spencer Johnson",1982,US,Public lists,SF;SC,3.42,3.85,3.0,3,1,2,4,3,5,5,3,3,4,3,5,Below cutoff,"One-minute goals, praisings, redirects"
+cut,The Peter Principle,"Laurence J. Peter, Raymond Hull",1969,mixed,Skeptic,Wildcard,3.35,3.7,3.0,3,3,3,2,3,4,4,4,5,2,3,4,Below cutoff,Rising to incompetence
+cut,Managing for Results,Peter F. Drucker,1964,US,Claude (canon),K (carried from Batch 1),3.34,3.35,3.33,4,4,3,3,3,3,3,4,3,4,3,3,Drucker author cap (The Practice of Management takes his last slot),Carried from Batch 1
+cut,What You Do Is Who You Are,Ben Horowitz,2019,US,Reader's Advocate,Wildcard,3.34,3.35,3.33,4,2,2,4,3,5,3,3,3,4,3,5,Below cutoff,Culture as behavior
+cut,Trillion Dollar Coach,"Eric Schmidt, Jonathan Rosenberg, Alan Eagle",2019,US,Operator,Wildcard,3.34,3.35,3.33,4,2,2,4,3,5,3,3,3,4,3,5,Below cutoff,Bill Campbell's coaching
+cut,Execution,"Larry Bossidy, Ram Charan",2002,mixed,Public lists,BI (carried from Batch 1),3.33,3.5,3.17,5,3,2,3,2,4,4,3,3,4,3,4,Below cutoff,Carried from Batch 1
+cut,Amoeba Management,Kazuo Inamori,2006,non-US,Claude (canon),K,3.33,3.5,3.17,4,3,3,3,3,3,3,4,4,4,3,3,Below cutoff,Kyocera's small profit units
+cut,The Future of Management,"Gary Hamel, Bill Breen",2007,US,Claude (canon),K;Routed from Innovation,3.31,3.3,3.33,3,4,3,3,4,3,3,3,4,3,4,3,One Hamel; Humanocracy is the update,Management innovation
+cut,The Advantage,Patrick Lencioni,2012,US,Claude (canon),K,3.31,3.45,3.17,4,2,2,4,3,4,3,4,3,4,3,4,Below cutoff; second Lencioni overlaps Five Dysfunctions,Organizational health
+cut,The Wisdom of Teams,"Jon R. Katzenbach, Douglas K. Smith",1993,US,Claude (canon),K,3.23,3.45,3.0,3,4,3,2,3,3,4,4,3,3,3,3,Below cutoff,Real teams vs working groups
+cut,Powerful,Patty McCord,2017,US,Claude (canon),K,3.21,3.25,3.17,4,2,3,3,3,4,3,3,3,4,3,4,Overlaps No Rules Rules,Overlaps No Rules Rules
+cut,The Nature of Managerial Work,Henry Mintzberg,1973,non-US,Professor,Wildcard,3.2,3.4,3.0,2,5,4,1,4,2,3,4,5,2,4,2,Below cutoff,What managers actually do
+cut,Out of Office,"Charlie Warzel, Anne Helen Petersen",2021,US,Claude (canon),K,3.17,3.0,3.33,3,3,3,3,4,4,2,3,3,3,4,4,Below cutoff,Remote and hybrid work
+cut,The Speed of Trust,Stephen M. R. Covey,2006,US,Public lists,TB;PI,3.17,3.35,3.0,3,2,2,4,3,4,4,3,3,3,3,4,Below cutoff,Trust as an economic driver
+cut,The Balanced Scorecard,"Robert S. Kaplan, David P. Norton",1996,US,Public lists,K;WM (carried from Batch 1),3.16,3.65,2.67,3,4,3,2,2,2,4,4,4,4,3,2,Below cutoff,Carried from Batch 1
+cut,Fierce Conversations,Susan Scott,2002,US,Public lists,PI,3.12,3.25,3.0,3,2,2,4,3,4,3,3,3,4,3,4,Overlaps Crucial Conversations,Overlaps Crucial Conversations
+cut,Managing Humans,Michael Lopp,2007,US,Claude (canon),K,3.12,3.25,3.0,4,2,2,3,3,4,3,3,3,4,3,4,Overlaps The Manager's Path,Overlaps The Manager's Path
+cut,Topgrading,Bradford D. Smart,1997,US,Claude (canon),K,2.91,3.15,2.67,4,2,2,2,3,3,3,3,3,4,3,3,Overlaps Who,Overlaps Who
+cut,Delivering Happiness,Tony Hsieh,2010,US,Public lists,IT,2.88,3.1,2.67,3,1,1,4,2,5,4,2,3,3,2,5,Below cutoff,Zappos culture
+cut,The 17 Indisputable Laws of Teamwork,John C. Maxwell,2001,US,Public lists,TB,2.65,2.8,2.5,3,1,1,4,2,4,3,3,2,3,2,4,Below cutoff,Teamwork laws
+cut,The Energy Bus,Jon Gordon,2007,US,Public lists,TB,2.62,2.9,2.33,2,1,1,4,2,4,3,3,2,3,2,5,Below cutoff,Positive-energy fable

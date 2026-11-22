@@ -97,5 +97,38 @@
     "final": 3.05,
     "blurb": "A performance coach's training program for the mind, drawn from work with elite athletes and blending Stoic, Eastern and psychological practice. Revised in 2020 and reissued by a major publisher in 2025.",
     "why_not": "Nominated by Joe. The Mindset Coach scored it 5, but it lost 4 to 2 because The Inner Game of Tennis already holds the coaching-the-mind slot with the original idea. It stays an alternate."
+  },
+  {
+    "theme": "management-teams",
+    "title": "The One Minute Manager",
+    "author": "Ken Blanchard, Spencer Johnson",
+    "year": 1982,
+    "lane": "crowd",
+    "champion": null,
+    "final": 3.42,
+    "blurb": "A short parable about a young man searching for an effective manager, who finds one built on three habits: one-minute goals, one-minute praisings and one-minute reprimands. One of the best-selling management books ever published.",
+    "why_not": "The Professor scored it 1: a fable with no evidence behind it. The Reader's Advocate loved how quickly it reads, but Radical Candor covers praise and correction in more depth and made the list."
+  },
+  {
+    "theme": "management-teams",
+    "title": "Principles",
+    "author": "Ray Dalio",
+    "year": 2017,
+    "lane": "crowd",
+    "champion": null,
+    "final": 3.48,
+    "blurb": "The founder of Bridgewater Associates sets out the rules he lives and manages by, built around an idea meritocracy, radical transparency and believability-weighted decisions.",
+    "why_not": "The Professor and the Skeptic scored it 2. Its system is tied to one unusual investment firm, and the panel doubted most teams could adopt it whole. The Fearless Organization and Radical Candor carry the case for candor."
+  },
+  {
+    "theme": "management-teams",
+    "title": "Execution",
+    "author": "Larry Bossidy, Ram Charan",
+    "year": 2002,
+    "lane": "specialist",
+    "champion": "The Operator",
+    "final": 3.33,
+    "blurb": "The former chief executive of AlliedSignal and Honeywell and a veteran adviser to CEOs argue that execution is a discipline, run through three core processes: people, strategy and operations.",
+    "why_not": "The Operator scored it 5 as the book that makes leaders own follow-through. The Skeptic and the Modernist scored it 2, and High Output Management covers operating rhythm with more rigor."
   }
 ]
