@@ -30,3 +30,4 @@
 | 2026-11-22 | Batch 3 (Mindset for Builders) approved as drafted: The 7 Habits stays in Mindset; the modern-era skew (22 of 35 from 2010 on) accepted |
 | 2026-11-22 | Batch 4 (Management, Teams and Culture) approved with one change: Drucker's last slot is saved for The Effective Executive in Habits, Focus and Performance, so Work Rules! replaces The Practice of Management (now an alternate). Taylor's Principles of Scientific Management kept; no AI-specific management book accepted |
 | 2026-11-22 | Unattended nightly runs: a scheduled task drafts and verifies up to 3 books, pushes a branch and opens a PR; only Joe merges to main |
+| 2026-11-22 | Theme order for the remaining batches is Claude's call; Joe approves each selection |
