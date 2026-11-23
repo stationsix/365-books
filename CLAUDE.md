@@ -17,13 +17,14 @@ Live: https://stationsix.github.io/365-books/ (deploys on every push to `main`).
 - No em dashes, no stock AI phrasing.
 - Files keep stable names and are edited in place; git is the history. Only point-in-time records (verification notes) carry a date.
 - Never push to or merge into `main` without Joe's yes: that publishes the site. Pushing a work branch and opening a pull request is fine; leave the merge to Joe.
-- Unattended runs: work through the Next list in order, stop at anything that is Joe's call (selection approvals, low-confidence claims), and list those open questions at the top of the PR description. Keep the Next list current in the same PR.
+- Unattended runs: work through the Next list in order, stop at anything that is Joe's call (selection approvals), and list those open questions at the top of the PR description. Keep the Next list current in the same PR.
+- Joe has no print copies of the books. Never leave a claim for him to check against the book: confirm it from another excerpt or reliable source, or cut or soften it, before the PR goes up.
 - Joe is new to Astro and GitHub Actions: explain unfamiliar tooling as you go.
 
 ## Next
-- Batch 1 (Strategy): summarize the remaining 27 picks in rank order.
+- Batch 1 (Strategy): ranks 1 to 4 verified plus pilots at 26 and 29; summarize the remaining 24 picks in rank order, starting at rank 5 (Business Model Generation).
 - Batch 2 (Innovation and Technology): selection approved. Ranks 1 to 3 verified (Innovator's Dilemma, Mythical Man-Month, Design of Everyday Things); continue in rank order.
-- Batch 3 (Mindset for Builders): selection approved. Ranks 1 to 3 verified (Mindset, Flow, Man's Search for Meaning; Frankl is medium confidence, check two passages against a print copy).
+- Batch 3 (Mindset for Builders): selection approved. Ranks 1 to 3 verified (Mindset, Flow, Man's Search for Meaning; Frankl is medium confidence: two passages still need confirming from other excerpts, or cutting, since Joe has no print copy).
 - Batch 4 (Management, Teams and Culture): selection approved (Work Rules! replaced The Practice of Management; The Effective Executive is Drucker's pick for Habits). Ranks 1 to 3 verified (High Output Management, The Fearless Organization, Radical Candor).
 - Later batches: Claude chooses the theme order and drafts each selection in time to keep summaries flowing. Joe approves each selection before its books are summarized.
 - Site: progress logging via GitHub Issue form + Action, Pagefind search, Amazon affiliate tag (after ~20 summaries), custom domain once there's content.
