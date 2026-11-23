@@ -52,7 +52,7 @@ Strategy comes down to five linked questions. What is our **winning aspiration**
 
 These two choices are the heart of the book. Where to play picks the field: which geographies, product categories, customer segments, channels and stages of the value chain. Choosing where to play also means choosing where not to. How to win is the recipe for beating rivals on that field, and the authors follow Michael Porter in naming two basic routes: lower cost or differentiation. In their words, "Where to play selects the playing field; how to win defines the choices for winning on that field."
 
-The Olay story shows both. Facing an aging brand, P&G weighed buying a skin care business or launching a new line, and instead chose to reinvent Olay for women aged 35 and up who were starting to notice signs of aging. Rather than move into prestige department stores, it worked with mass retailers to create a "masstige" offer, led by Olay Total Effects at a premium price, so prestige-level skin care sat on drugstore and mass-market shelves.
+The Olay story shows both. Facing an aging brand, P&G chose to reinvent Olay for women aged 35 and up who were starting to notice signs of aging. Rather than move into prestige department stores, it worked with mass retailers to create a "masstige" offer, led by Olay Total Effects at a premium price, so prestige-level skin care sat on drugstore and mass-market shelves.
 
 *Why it transcends:* AI reshapes many playing fields, but every company still has to choose which ones to enter and how it will be better there.
 
@@ -70,7 +70,7 @@ The fifth choice is the plumbing: the structures, processes and measures that ca
 
 ### 5. The strategy logic flow · Transcends
 
-Before making choices, the authors want a clear picture of the situation, built from four areas of analysis. **Industry**: how the market is segmented and how attractive each segment is. **Customers**: what channels and end consumers actually value, often found through close observation rather than surveys alone. **Relative position**: how the company's capabilities and costs compare with rivals'. **Competition**: how rivals are likely to react to each move. The flow keeps strategy from being made in a vacuum.
+Before making choices, the authors want a clear picture of the situation, built from four areas of analysis. **Industry**: how the market is segmented and how attractive each segment is. **Customers**: what channels and end consumers actually value. **Relative position**: how the company's capabilities and costs compare with rivals'. **Competition**: how rivals are likely to react to each move. The flow keeps strategy from being made in a vacuum.
 
 *Why it transcends:* AI makes it much cheaper to gather and summarize this analysis. The four questions remain the right ones, and answers now arrive in hours instead of weeks.
 

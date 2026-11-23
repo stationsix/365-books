@@ -19,6 +19,7 @@ sources:
   - "https://fs.blog/peter-thiel-zero-to-one/"
   - "https://www.technologyreview.com/2014/10/08/111242/the-contrarians-guide-to-changing-the-world/"
   - "https://www.cato.org/regulation/spring-2015/more-zero-less-one"
+  - "https://www.goodreads.com/quotes/2796844-paradoxically-then-network-effects-businesses-must-start-with-especially-small"
 joe_read: null
 joe_rating: null
 joe_note: null
@@ -78,7 +79,7 @@ Returns in venture capital, Thiel argues, follow a power law rather than a norma
 
 ### 7. The seven questions · Evolves
 
-Every business, Thiel argues, must answer seven questions. Engineering: can you build a breakthrough rather than an incremental improvement? Timing: is now the right time? Monopoly: are you starting with a big share of a small market? People: do you have the right team? Distribution: can you sell the product, not just make it? Durability: will your position still be defensible in ten and twenty years? Secret: have you found an opportunity others do not see? The clean-energy bust of the late 2000s is his case study: most of those companies failed because they neglected one or more of the questions.
+Every business, Thiel argues, must answer seven questions. Engineering: can you build a breakthrough rather than an incremental improvement? Timing: is now the right time? Monopoly: are you starting with a big share of a small market? People: do you have the right team? Distribution: can you sell the product, not just make it? Durability: will your position still be defensible in ten and twenty years? Secret: have you found an opportunity others do not see? The clean-energy bust of the late 2000s is his case study of companies that came up short on these questions.
 
 *Why it evolves:* The questions still work as a checklist. Durability is the one that got harder, because a 20-year view of any market touched by AI is mostly guesswork.
 

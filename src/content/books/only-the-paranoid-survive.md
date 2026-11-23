@@ -20,6 +20,7 @@ sources:
   - "https://www.london.edu/think/navigating-strategic-inflection-points"
   - "https://en.wikipedia.org/wiki/Pentium_FDIV_bug"
   - "https://buresund.nu/books/only-the-paranoid-survive"
+  - "https://www.gsb.stanford.edu/insights/what-do-you-do-when-industry-dynamics-fundamentally-change"
 joe_read: null
 joe_rating: null
 joe_note: null
@@ -37,7 +38,7 @@ By 1996 Grove had spent nearly three decades at Intel and almost ten years as it
 
 Grove calls them strategic inflection points. They arrive when one force acting on a business grows so large that the old rules stop applying, and inside the company they feel like a vague sense that something is off, long before the numbers say so.
 
-His thesis is in the preface: "Success breeds complacency. Complacency breeds failure. Only the paranoid survive." The book is built from Intel's own near-misses, chiefly its retreat from memory chips in the mid-1980s and the Pentium flaw of 1994, then widens to the computer industry and to how leaders respond, and ends by asking whether the internet is signal or noise, threat or promise. The 1999 paperback added a chapter applying the idea to individual careers.
+His thesis fits in his best-known motto: "Success breeds complacency. Complacency breeds failure. Only the paranoid survive." The book is built from Intel's own near-misses, chiefly its retreat from memory chips in the mid-1980s and the Pentium flaw of 1994, then widens to the computer industry and to how leaders respond, and ends by asking whether the internet is signal or noise, threat or promise. The 1999 paperback added a chapter applying the idea to individual careers.
 
 ## Key concepts
 
@@ -45,7 +46,7 @@ His thesis is in the preface: "Success breeds complacency. Complacency breeds fa
 
 A strategic inflection point is a time in the life of a business when its fundamentals are about to change. Grove borrows the term from mathematics: the point on a curve where it stops bending one way and starts bending the other. Before it, the old strategy works. After it, a new one is required, and acting too early or too late can both do serious damage.
 
-The Pentium flaw of 1994 shows how disorienting this feels. Intel first treated a rare division error as a minor technical issue, offering replacements only to users who could show they needed one. Public anger, and IBM halting Pentium shipments, forced Intel to replace chips on request and take a $475 million charge. Grove's reading is that the rules had shifted: Intel now sold to consumers, not just engineers.
+The Pentium flaw of 1994 shows how disorienting this feels. Intel first treated a rare division error as a minor technical issue, offering replacements only to users who could show they needed one. Public anger, and IBM halting Pentium shipments, forced Intel to replace chips on request and take a $475 million charge. The lesson Grove drew, with Robert Burgelman, is that the Intel Inside campaign had changed the rules: the market now expected Intel to behave like a consumer products company, not a supplier to computer makers.
 
 *Why it transcends:* The concept describes a pattern, not a technology. Any field AI reshapes will pass through its own inflection point, and it will feel like confusion before it looks like a signal.
 
@@ -145,7 +146,7 @@ When I bring you a change, plan or worry: ask whether it is signal or noise, whi
 
 ## Critiques and caveats
 
-The evidence comes almost entirely from Intel, told by the person who led it, so the book shows the inflection points Grove caught more clearly than the ones Intel missed. Telling signal from noise is the hardest step, and the book offers judgment and examples rather than a method that can be tested. Readers who apply "paranoia" literally can end up chasing every shift and never committing. Intel itself later lost the smartphone chip market to rivals, a reminder that knowing the theory does not guarantee spotting the next point in time.
+The evidence comes almost entirely from Intel, told by the person who led it, so the book shows the inflection points Grove caught more clearly than the ones Intel missed. Telling signal from noise is the hardest step, and the book offers judgment and examples rather than a method that can be tested. Readers who apply "paranoia" literally can end up chasing every shift and never committing.
 
 ## Read it or skip it
 
