@@ -1,0 +1,74 @@
+---
+// One line icon per theme, keyed by the slug in src/data/themes.json.
+// Drawn on a 24px grid with square caps and mitred joins to match the
+// site's square-corner, technical look. Color comes from the parent
+// (currentColor), so the same icon works in lime, muted or body text.
+interface Props {
+  slug: string;
+  size?: number;
+  class?: string;
+}
+const { slug, size = 20, class: className } = Astro.props;
+
+// Each value is SVG inner markup. Outlines use the stroke; the few small
+// solid squares opt into fill with class "f".
+const icons: Record<string, string> = {
+  // Lightbulb: the idea, the attitude you bring to the work.
+  mindset:
+    '<path d="M12 3l5 4v4l-2 3v3H9v-3l-2-3V7z"/><path d="M10 20h4"/><path d="M12 10v4"/>',
+  // Nested squares with a dead-center dot: a target, kept square.
+  'habits-focus':
+    '<path d="M4 4h16v16H4z"/><path d="M8 8h8v8H8z"/><rect class="f" x="11" y="11" width="2" height="2"/>',
+  // Rocket: launch.
+  entrepreneurship:
+    '<path d="M12 3l4 5v8H8V8z"/><path d="M8 12l-3 3v3l3-2"/><path d="M16 12l3 3v3l-3-2"/><path d="M10 19l2 2 2-2"/><rect class="f" x="11" y="9" width="2" height="2"/>',
+  // Chess rook: position and moves.
+  strategy:
+    '<path d="M7 10V5h2v2h2V5h2v2h2V5h2v5z"/><path d="M8.5 10L8 18"/><path d="M15.5 10l.5 8"/><path d="M6 18h12v2H6z"/>',
+  // Pennant on a pole: out in front.
+  leadership: '<path d="M6 21V3"/><path d="M6 4h12l-3.5 4L18 12H6"/>',
+  // Org chart: one node feeding three.
+  'management-teams':
+    '<path d="M10 3h4v4h-4z"/><path d="M12 7v10"/><path d="M5 17v-4h14v4"/><path d="M3 17h4v4H3z"/><path d="M10 17h4v4h-4z"/><path d="M17 17h4v4h-4z"/>',
+  // Megaphone with three signal lines.
+  'marketing-brand':
+    '<path d="M3 10v4h3l9 5V5l-9 5z"/><path d="M6 14l1 6h3l-1-5"/><path d="M18 8.5l2-1"/><path d="M18 12h3"/><path d="M18 15.5l2 1"/>',
+  // Two arrows trading places: an exchange.
+  'sales-negotiation':
+    '<path d="M4 8h14"/><path d="M14 4l4 4-4 4"/><path d="M20 16H6"/><path d="M10 12l-4 4 4 4"/>',
+  // Chip with pins.
+  'innovation-tech':
+    '<path d="M7 7h10v10H7z"/><path d="M10 10h4v4h-4z"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/>',
+  // A path that forks: pick a branch.
+  'decisions-behavioral':
+    '<path d="M12 21v-7"/><path d="M12 14L7.5 9.5"/><path d="M12 14l4.5-4.5"/><path d="M4 4h4v4H4z"/><path d="M16 4h4v4h-4z"/>',
+  // Rising bars on a baseline.
+  money: '<path d="M3 21h18"/><path d="M5 14h3v7H5z"/><path d="M10.5 10h3v11h-3z"/><path d="M16 5h3v16h-3z"/>',
+  // Gear with square teeth.
+  'operations-systems':
+    '<path d="M18.5 10.7L20.9 10.8 20.9 13.2 18.5 13.3 17.5 15.6 19.1 17.5 17.5 19.1 15.6 17.5 13.3 18.5 13.2 20.9 10.8 20.9 10.7 18.5 8.4 17.5 6.5 19.1 4.9 17.5 6.5 15.6 5.5 13.3 3.1 13.2 3.1 10.8 5.5 10.7 6.5 8.4 4.9 6.5 6.5 4.9 8.4 6.5 10.7 5.5 10.8 3.1 13.2 3.1 13.3 5.5 15.6 6.5 17.5 4.9 19.1 6.5 17.5 8.4z"/><path d="M10 10h4v4h-4z"/>',
+};
+const markup = icons[slug];
+---
+
+{markup && (
+  <svg
+    class:list={['theme-icon', className]}
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.5"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+    aria-hidden="true"
+    focusable="false"
+    set:html={markup}
+  />
+)}
+
+<style>
+  .theme-icon { display: inline-block; flex: none; vertical-align: middle; }
+  .theme-icon :global(.f) { fill: currentColor; stroke: none; }
+</style>

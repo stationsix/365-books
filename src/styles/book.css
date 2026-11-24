@@ -4,6 +4,8 @@
 .book { padding-top: 48px; }
 .book__header { max-width: 900px; }
 .book__meta { display: flex; flex-wrap: wrap; gap: 4px 0; margin: 0 0 20px; }
+.book__theme { display: inline-flex; align-items: center; gap: 8px; }
+.book__theme .theme-icon { color: var(--brand); }
 .book__meta span + span::before { content: '·'; margin: 0 10px; color: var(--line); }
 .book__subtitle { font-size: 22px; color: var(--muted); margin: 14px 0 0; }
 .book__author { font-family: var(--font-mono); font-size: 15px; color: var(--muted); margin: 14px 0 0; }

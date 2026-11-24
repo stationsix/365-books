@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import VerdictBar from '../components/VerdictBar.astro';
 import VerdictLegend from '../components/VerdictLegend.astro';
 import ProgressGrid from '../components/ProgressGrid.astro';
+import ThemeIcon from '../components/ThemeIcon.astro';
 import { getLiveBooks, sumTags, themeName, themes, verdictStats } from '../lib/books';
 import { url } from '../lib/url';
 
@@ -69,7 +70,7 @@ const themeCounts = themes.map((t) => ({
         {books.map((b) => (
           <li>
             <a class="book-row" href={url(`/books/${b.id}/`)}>
-              <span class="book-row__meta label">{themeName(b.data.theme)} · {b.data.year}</span>
+              <span class="book-row__meta label"><ThemeIcon slug={b.data.theme} size={18} class="meta-icon" />{themeName(b.data.theme)} · {b.data.year}</span>
               <span class="book-row__title">{b.data.title}</span>
               <span class="book-row__author">{b.data.author}</span>
               <span class="book-row__verdict">
@@ -88,6 +89,7 @@ const themeCounts = themes.map((t) => ({
         {themeCounts.map((t, i) => (
           <li class="theme">
             <span class="theme__num">{String(i + 1).padStart(2, '0')}</span>
+            <ThemeIcon slug={t.slug} size={24} class="theme__icon" />
             <span class="theme__name">{t.name}</span>
             <span class="theme__count">{t.done}/{t.target}</span>
             <span class="theme__bar" aria-hidden="true">
@@ -132,7 +134,8 @@ const themeCounts = themes.map((t) => ({
     text-decoration: none;
   }
   .book-row:hover .book-row__title { color: var(--brand-hover); }
-  .book-row__meta { grid-area: meta; }
+  .book-row__meta { grid-area: meta; display: inline-flex; align-items: center; gap: 8px; }
+  .book-row__meta :global(.meta-icon) { color: var(--text); }
   .book-row__title { grid-area: title; font-size: 22px; font-weight: 600; line-height: 1.3; }
   .book-row__author { grid-area: author; color: var(--muted); }
   .book-row__verdict { grid-area: verdict; display: grid; gap: 8px; }
@@ -151,10 +154,11 @@ const themeCounts = themes.map((t) => ({
     background: var(--bg);
     padding: 16px 18px;
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto auto 1fr auto;
     gap: 4px 12px;
-    align-items: baseline;
+    align-items: center;
   }
+  .theme :global(.theme__icon) { color: var(--brand); }
   .theme__num, .theme__count { font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
   .theme__name { font-weight: 500; }
   .theme__bar { grid-column: 1 / -1; height: 4px; background: var(--empty); margin-top: 8px; }

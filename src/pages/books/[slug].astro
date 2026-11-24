@@ -4,6 +4,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import VerdictPanel from '../../components/VerdictPanel.astro';
+import ThemeIcon from '../../components/ThemeIcon.astro';
 import { coreIdea, getLiveBooks, sectionParagraphs, themeName, type Book } from '../../lib/books';
 import '../../styles/book.css';
 
@@ -33,7 +34,7 @@ const sourceHost = (s: string) => {
   <article class="container book">
     <header class="book__header">
       <p class="label book__meta">
-        <span>{themeName(d.theme)}</span>
+        <span class="book__theme"><ThemeIcon slug={d.theme} size={18} />{themeName(d.theme)}</span>
         <span>{d.year}</span>
         <span>{d.read_time_min} min read</span>
         {d.number != null && <span>No. {String(d.number).padStart(3, '0')}</span>}
