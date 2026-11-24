@@ -4,6 +4,7 @@
 import Base from '../layouts/Base.astro';
 import mentions from '../data/honorable-mentions.json';
 import { themes } from '../lib/books';
+import ThemeIcon from '../components/ThemeIcon.astro';
 import { url } from '../lib/url';
 
 const lanes = { crowd: 'Crowd favorite', specialist: "Specialist's pick" };
@@ -28,7 +29,7 @@ const groups = themes
 
     {groups.map((g, i) => (
       <section class="section">
-        <h2 class="section-header"><span class="num">{String(i + 1).padStart(2, '0')}</span> / {g.theme.name}</h2>
+        <h2 class="section-header hm-header"><span class="num">{String(i + 1).padStart(2, '0')}</span> /<ThemeIcon slug={g.theme.slug} size={20} class="hm-icon" />{g.theme.name}</h2>
         <ul class="mentions">
           {g.items.map((m) => (
             <li>
@@ -52,6 +53,8 @@ const groups = themes
   .page header .lead { margin-top: 24px; max-width: 760px; }
   .note { color: var(--muted); font-size: 15px; }
   .num { color: var(--text); }
+  .hm-header { display: flex; align-items: center; gap: 10px; }
+  .hm-header :global(.hm-icon) { color: var(--brand); }
   .mentions {
     list-style: none;
     margin: 0;

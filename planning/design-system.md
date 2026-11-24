@@ -45,4 +45,5 @@ Rule: the three verdict colors step down in lightness (lime, cyan, violet) and a
 - **Persona scorecard:** two-column grid; each persona has name, score /5, a 5-segment lime bar and a one-line take; summary line in mono.
 - **Scoreboard (home):** surface box; three big mono numbers in the verdict colors; one stacked bar.
 - **Progress grid (home):** 365 square cells; published = lime, read by Joe = --text, empty = --empty.
+- **Theme icons:** one line icon per theme in `src/components/ThemeIcon.astro`, keyed by theme slug. 24px grid, 1.5px stroke, square caps, mitred joins, no curves where a corner will do. Color comes from the parent: lime in the themes grid, section headers and the book page; body text in library rows. Sizes 24 (themes grid), 20 (section headers), 18 (meta lines). Always beside the theme name, never alone. A new theme needs a new icon in the same style.
 - **Footer disclosure:** "Written by Claude (Anthropic), checked by a separate review pass..." plus "Report a correction" and an outlined "Get the book on Amazon" button.
