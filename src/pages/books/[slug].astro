@@ -35,7 +35,7 @@ const sourceHost = (s: string) => {
     <header class="book__header">
       <p class="label book__meta">
         <span class="book__theme"><ThemeIcon slug={d.theme} size={18} />{themeName(d.theme)}</span>
-        <span>{d.year}</span>
+        <span>{d.year_display ?? d.year}</span>
         <span>{d.read_time_min} min read</span>
         {d.number != null && <span>No. {String(d.number).padStart(3, '0')}</span>}
         {d.free_online && <span>Free online{d.license && ` · ${d.license}`}</span>}

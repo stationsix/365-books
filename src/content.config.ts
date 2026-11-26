@@ -23,6 +23,9 @@ const books = defineCollection({
     subtitle: z.string().optional(),
     author: z.string().min(1),
     year: z.number().int(),
+    // Optional display label for books without a modern publication year,
+    // e.g. "c. 500 BC". The numeric year stays for sorting and data.
+    year_display: z.string().optional(),
     theme: z.enum(themeSlugs),
     category: z.string(),
     number: z.number().int().min(1).max(365).nullable(),

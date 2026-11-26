@@ -70,7 +70,7 @@ const themeCounts = themes.map((t) => ({
         {books.map((b) => (
           <li>
             <a class="book-row" href={url(`/books/${b.id}/`)}>
-              <span class="book-row__meta label"><ThemeIcon slug={b.data.theme} size={18} class="meta-icon" />{themeName(b.data.theme)} · {b.data.year}</span>
+              <span class="book-row__meta label"><ThemeIcon slug={b.data.theme} size={18} class="meta-icon" />{themeName(b.data.theme)} · {b.data.year_display ?? b.data.year}</span>
               <span class="book-row__title">{b.data.title}</span>
               <span class="book-row__author">{b.data.author}</span>
               <span class="book-row__verdict">
