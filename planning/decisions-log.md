@@ -32,5 +32,6 @@
 | 2026-11-22 | Unattended nightly runs: a scheduled task drafts and verifies up to 3 books, pushes a branch and opens a PR; only Joe merges to main |
 | 2026-11-22 | Theme order for the remaining batches is Claude's call; Joe approves each selection |
 | 2026-11-23 | Joe has no print copies: unconfirmed claims are resolved from other excerpts or cut before a PR, never left for him to check against the book |
-| 2026-11-26 | The Art of War follows the Lionel Giles translation (1910, public domain) rather than Griffith or Minford, so every claim and quote can be checked against the full text; Joe can reverse this |
+| 2026-11-26 | The Art of War follows the Lionel Giles translation (1910, public domain) rather than Griffith or Minford, so every claim and quote can be checked against the full text; Joe agreed |
 | 2026-11-26 | Optional `year_display` front-matter field shows a label (e.g. "c. 5th century BC") for books without a modern publication year; the numeric `year` stays for data |
+| 2026-11-26 | Translated classics (e.g. The Prince, The Book of Five Rings) follow a public-domain translation whenever one exists, so the full text can be checked |
