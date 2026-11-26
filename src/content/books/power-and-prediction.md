@@ -102,7 +102,7 @@ The AI systems discovery canvas has three steps: state the mission, reduce the b
 
 *AI analysis*
 
-*Power and Prediction* came out on November 15, 2022, about two weeks before the first widely used AI chatbot was released. It holds up four years on because its argument was about how organizations absorb a cheaper input, not about any particular model.
+*Power and Prediction* came out on November 15, 2022, about two weeks before the chatbot launch that set off the generative AI boom. It holds up four years on because its argument was about how organizations absorb a cheaper input, not about any particular model.
 
 What holds is the system view. Much generative AI use looks like the book's point solutions: an assistant added to a job, with the job and the rules around it left alone. The three kinds of solution, the hunt for rules that hide uncertainty and the blank-slate canvas serve a team planning AI agents as well as they served a factory owner leaving steam behind.
 
