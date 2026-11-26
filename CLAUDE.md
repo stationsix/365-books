@@ -23,7 +23,7 @@ Live: https://stationsix.github.io/365-books/ (deploys on every push to `main`).
 - Joe is new to Astro and GitHub Actions: explain unfamiliar tooling as you go.
 
 ## Next
-- Batch 1 (Strategy): ranks 1 to 19 verified plus pilots at 26 and 29; summarize the remaining 9 picks in rank order, starting at rank 20 (Simple Rules).
+- Batch 1 (Strategy): ranks 1 to 22 verified plus pilots at 26 and 29; summarize the remaining 6 picks in rank order, starting at rank 23 (Strategy Beyond the Hockey Stick).
 - Batch 2 (Innovation and Technology): selection approved. Ranks 1 to 3 verified (Innovator's Dilemma, Mythical Man-Month, Design of Everyday Things); continue in rank order.
 - Batch 3 (Mindset for Builders): selection approved. Ranks 1 to 3 verified (Mindset, Flow, Man's Search for Meaning; Frankl is medium confidence: two passages still need confirming from other excerpts, or cutting, since Joe has no print copy).
 - Batch 4 (Management, Teams and Culture): selection approved (Work Rules! replaced The Practice of Management; The Effective Executive is Drucker's pick for Habits). Ranks 1 to 3 verified (High Output Management, The Fearless Organization, Radical Candor).
