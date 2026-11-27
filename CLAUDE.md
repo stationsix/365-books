@@ -24,7 +24,7 @@ Live: https://stationsix.github.io/365-books/ (deploys on every push to `main`).
 
 ## Next
 - Batch 1 (Strategy): complete. All 30 picks verified.
-- Batch 2 (Innovation and Technology): selection approved. Ranks 1 to 9 verified (Innovator's Dilemma, Mythical Man-Month, Design of Everyday Things, Innovation and Entrepreneurship, Prediction Machines, Competing Against Luck, Co-Intelligence, Chip War, The Master Switch); next up, continue in rank order from rank 10 (Inspired).
+- Batch 2 (Innovation and Technology): selection approved. Ranks 1 to 12 verified (Innovator's Dilemma, Mythical Man-Month, Design of Everyday Things, Innovation and Entrepreneurship, Prediction Machines, Competing Against Luck, Co-Intelligence, Chip War, The Master Switch, Inspired, The Idea Factory, The Second Machine Age); next up, continue in rank order from rank 13 (Weapons of Math Destruction).
 - Batch 3 (Mindset for Builders): selection approved. Ranks 1 to 3 verified (Mindset, Flow, Man's Search for Meaning; Frankl is medium confidence: two passages still need confirming from other excerpts, or cutting, since Joe has no print copy).
 - Batch 4 (Management, Teams and Culture): selection approved (Work Rules! replaced The Practice of Management; The Effective Executive is Drucker's pick for Habits). Ranks 1 to 3 verified (High Output Management, The Fearless Organization, Radical Candor).
 - Later batches: Claude chooses the theme order and drafts each selection in time to keep summaries flowing. Joe approves each selection before its books are summarized.
