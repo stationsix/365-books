@@ -23,6 +23,27 @@ export async function getLiveBooks(): Promise<Book[]> {
   );
 }
 
+/** Date of the review pass, from "checked on YYYY-MM-DD" in "How this summary was made". */
+export function verifiedOn(book: Book): string {
+  return book.body?.match(/checked on (\d{4}-\d{2}-\d{2})/)?.[1] ?? '';
+}
+
+/**
+ * Newest summaries first. Books are verified in batch rank order, and rank follows the
+ * final score (highest first), so within one review date a lower final score means later.
+ */
+export function newestFirst(books: Book[]): Book[] {
+  return [...books].sort(
+    (a, b) =>
+      verifiedOn(b).localeCompare(verifiedOn(a)) || a.data.panel.final - b.data.panel.final,
+  );
+}
+
+/** A theme's books in list order: highest final score (rank 1) first. */
+export function byRank(books: Book[]): Book[] {
+  return [...books].sort((a, b) => b.data.panel.final - a.data.panel.final);
+}
+
 export const themeName = (slug: string) => themes.find((t) => t.slug === slug)?.name ?? slug;
 
 /** The bold first line of "## At a glance". */

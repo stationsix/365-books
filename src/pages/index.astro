@@ -4,7 +4,7 @@ import VerdictBar from '../components/VerdictBar.astro';
 import VerdictLegend from '../components/VerdictLegend.astro';
 import ProgressGrid from '../components/ProgressGrid.astro';
 import ThemeIcon from '../components/ThemeIcon.astro';
-import { getLiveBooks, sumTags, themeName, themes, verdictStats } from '../lib/books';
+import { byRank, getLiveBooks, newestFirst, sumTags, themeName, themes, verdictStats } from '../lib/books';
 import { url } from '../lib/url';
 
 const books = await getLiveBooks();
@@ -15,10 +15,13 @@ const verdicts = [
   { key: 'evolves', label: 'Evolve' },
   { key: 'expires', label: 'Expire' },
 ] as const;
-const themeCounts = themes.map((t) => ({
-  ...t,
-  done: books.filter((b) => b.data.theme === t.slug).length,
-}));
+// The home page shows only the newest few; every live book is listed under its theme.
+const LATEST_COUNT = 3;
+const latest = newestFirst(books).slice(0, LATEST_COUNT);
+const themeCounts = themes.map((t) => {
+  const themeBooks = byRank(books.filter((b) => b.data.theme === t.slug));
+  return { ...t, books: themeBooks, done: themeBooks.length };
+});
 ---
 
 <Base>
@@ -67,7 +70,7 @@ const themeCounts = themes.map((t) => ({
     <section class="section" id="library" aria-labelledby="library-title">
       <h2 class="section-header" id="library-title"><span class="num">03</span> / Latest summaries</h2>
       <ul class="library">
-        {books.map((b) => (
+        {latest.map((b) => (
           <li>
             <a class="book-row" href={url(`/books/${b.id}/`)}>
               <span class="book-row__meta label"><ThemeIcon slug={b.data.theme} size={18} class="meta-icon" />{themeName(b.data.theme)} · {b.data.year_display ?? b.data.year}</span>
@@ -81,20 +84,48 @@ const themeCounts = themes.map((t) => ({
           </li>
         ))}
       </ul>
+      <p class="library__more"><a href="#themes">All {books.length} summaries, by theme</a></p>
     </section>
 
     <section class="section" id="themes" aria-labelledby="themes-title">
       <h2 class="section-header" id="themes-title"><span class="num">04</span> / 12 themes</h2>
       <ol class="themes">
         {themeCounts.map((t, i) => (
-          <li class="theme">
-            <span class="theme__num">{String(i + 1).padStart(2, '0')}</span>
-            <ThemeIcon slug={t.slug} size={24} class="theme__icon" />
-            <span class="theme__name">{t.name}</span>
-            <span class="theme__count">{t.done}/{t.target}</span>
-            <span class="theme__bar" aria-hidden="true">
-              <span style={`width:${Math.min(100, (t.done / t.target) * 100)}%`}></span>
-            </span>
+          <li class={`theme${t.done ? ' theme--has-books' : ''}`}>
+            {t.done ? (
+              <details>
+                <summary class="theme__head">
+                  <span class="theme__num">{String(i + 1).padStart(2, '0')}</span>
+                  <ThemeIcon slug={t.slug} size={24} class="theme__icon" />
+                  <span class="theme__name">{t.name}</span>
+                  <span class="theme__count">{t.done}/{t.target}<span class="theme__chevron" aria-hidden="true"></span></span>
+                  <span class="theme__bar" aria-hidden="true">
+                    <span style={`width:${Math.min(100, (t.done / t.target) * 100)}%`}></span>
+                  </span>
+                </summary>
+                <ul class="theme__books">
+                  {t.books.map((b) => (
+                    <li>
+                      <a class="theme-book" href={url(`/books/${b.id}/`)}>
+                        <span class="theme-book__title">{b.data.title}</span>
+                        <span class="theme-book__author">{b.data.author}</span>
+                        <span class="theme-book__verdict"><VerdictBar tags={b.data.tags} height={4} gap={2} /></span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ) : (
+              <div class="theme__head">
+                <span class="theme__num">{String(i + 1).padStart(2, '0')}</span>
+                <ThemeIcon slug={t.slug} size={24} class="theme__icon" />
+                <span class="theme__name">{t.name}</span>
+                <span class="theme__count">{t.done}/{t.target}</span>
+                <span class="theme__bar" aria-hidden="true">
+                  <span style={`width:${Math.min(100, (t.done / t.target) * 100)}%`}></span>
+                </span>
+              </div>
+            )}
           </li>
         ))}
       </ol>
@@ -147,22 +178,53 @@ const themeCounts = themes.map((t) => ({
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1px;
-    background: var(--line);
+    /* Cell lines come from each tile's outline, so a cell left empty when a theme opens
+       full-width shows page background rather than a grey block. */
+    background: var(--bg);
     border: 1px solid var(--line);
   }
-  .theme {
-    background: var(--bg);
+  .theme { background: var(--bg); box-shadow: 0 0 0 1px var(--line); }
+  /* An open theme takes the full row so its book list has room. */
+  .theme:has(details[open]) { grid-column: 1 / -1; }
+  .theme__head {
     padding: 16px 18px;
     display: grid;
     grid-template-columns: auto auto 1fr auto;
     gap: 4px 12px;
     align-items: center;
   }
+  summary.theme__head { cursor: pointer; list-style: none; }
+  summary.theme__head::-webkit-details-marker { display: none; }
+  summary.theme__head:hover .theme__name { color: var(--brand-hover); }
+  summary.theme__head:focus-visible { outline: 2px solid var(--brand); outline-offset: -2px; }
   .theme :global(.theme__icon) { color: var(--brand); }
   .theme__num, .theme__count { font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+  .theme__count { display: inline-flex; align-items: center; gap: 8px; }
+  .theme__chevron {
+    width: 7px; height: 7px;
+    border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+    margin-right: 2px;
+    transform: translateY(-2px) rotate(45deg);
+    transition: transform 0.15s;
+  }
+  details[open] .theme__chevron { transform: translateY(2px) rotate(-135deg); }
   .theme__name { font-weight: 500; }
   .theme__bar { grid-column: 1 / -1; height: 4px; background: var(--empty); margin-top: 8px; }
   .theme__bar span { display: block; height: 100%; background: var(--brand); }
+  .theme__books {
+    list-style: none; margin: 0; padding: 0 18px 8px;
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px;
+  }
+  .theme__books li { border-top: 1px solid var(--line); }
+  .theme-book {
+    display: grid; grid-template-columns: 1fr 120px; grid-template-areas: 'title verdict' 'author verdict';
+    gap: 0 16px; align-items: center; padding: 12px 0; color: var(--text); text-decoration: none;
+  }
+  .theme-book:hover .theme-book__title { color: var(--brand-hover); }
+  .theme-book__title { grid-area: title; font-weight: 600; line-height: 1.3; }
+  .theme-book__author { grid-area: author; color: var(--muted); font-size: 14px; }
+  .theme-book__verdict { grid-area: verdict; }
+  .library__more { margin: 16px 0 0; font-family: var(--font-mono); font-size: 14px; }
 
   @media (max-width: 860px) {
     .themes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -175,5 +237,7 @@ const themeCounts = themes.map((t) => ({
     .book-row { grid-template-columns: 1fr; grid-template-areas: 'meta' 'title' 'author' 'verdict'; }
     .book-row__verdict { margin-top: 10px; }
     .themes { grid-template-columns: 1fr; }
+    .theme__books { grid-template-columns: 1fr; }
+    .theme-book { grid-template-columns: 1fr 80px; }
   }
 </style>
