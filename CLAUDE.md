@@ -25,7 +25,7 @@ Live: https://stationsix.github.io/365-books/ (deploys on every push to `main`).
 ## Next
 - Batch 1 (Strategy): complete. All 30 picks verified.
 - Batch 2 (Innovation and Technology): complete. All 30 picks verified.
-- Batch 3 (Mindset for Builders): selection approved. Ranks 1 to 6 verified (Mindset, Flow, Man's Search for Meaning, So Good They Can't Ignore You, Working Identity, The 7 Habits of Highly Effective People); next up, continue in rank order from rank 7 (Peak).
+- Batch 3 (Mindset for Builders): selection approved. Ranks 1 to 9 verified (Mindset, Flow, Man's Search for Meaning, So Good They Can't Ignore You, Working Identity, The 7 Habits of Highly Effective People, Peak, Emotional Intelligence, The Scout Mindset); next up, continue in rank order from rank 10 (Letters from a Stoic, which should follow a public-domain translation such as Gummere's).
 - Batch 4 (Management, Teams and Culture): selection approved (Work Rules! replaced The Practice of Management; The Effective Executive is Drucker's pick for Habits). Ranks 1 to 3 verified (High Output Management, The Fearless Organization, Radical Candor).
 - Later batches: Claude chooses the theme order and drafts each selection in time to keep summaries flowing. Joe approves each selection before its books are summarized.
 - Accounts, hosting and brand (exploring, Joe deciding): reader accounts via Supabase, move to Cloudflare with a private repo and a custom domain, possible new brand name. Read `planning/accounts-hosting-brand.md` first; its open questions are Joe's call.
