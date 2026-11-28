@@ -7,7 +7,7 @@ theme: "mindset"
 category: "business"
 number: null
 status: "verified"
-confidence: "medium"
+confidence: "high"
 read_time_min: 7
 asin: ""
 tags: { transcends: 4, evolves: 2, expires: 0 }
@@ -18,6 +18,13 @@ sources:
   - "https://www.landsberg-kaufering-erinnern.de/en/?p=86170"
   - "https://oac.cdlib.org/findaid/ark:/13030/tf7g5005bh"
   - "https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC7804501/"
+  - "https://www.huffpost.com/entry/the-blessing-of-enough_b_207564"
+  - "https://mjhnyc.org/blog/hope-a-paradox/"
+  - "https://anzlitlovers.com/2024/01/27/mans-search-for-meaning-1959-by-viktor-e-frankl-part-one-translated-by-ilse-lasch/"
+  - "https://www.kostavro.eu/posts/2024-11-14-book-mans-search-for-meaning/"
+  - "https://repsteveisrael.substack.com/p/weekend-read-on-viktor-frankl-purpose"
+  - "https://momentmag.com/in-search-of-the-meaning-of-viktor-frankl/"
 joe_read: null
 joe_rating: null
 joe_note: null
@@ -59,13 +66,13 @@ Logotherapy names three ways people find meaning: by **creating a work or doing 
 
 ### 4. Having a why · Transcends
 
-Frankl returns often to a line from Nietzsche: "He who has a why to live for can bear with almost any how." In the camps, he observed, prisoners who held on to a future goal, a person waiting for them or a task to finish, endured better than those who lost faith in a future. He recounts how hope tied to a date could be fatal: a camp doctor told him that deaths in the week between Christmas 1944 and New Year 1945 rose beyond anything seen before, after prisoners' hopes of being home by Christmas collapsed. One of his own reasons was to reconstruct the manuscript he had lost on arrival at Auschwitz.
+Frankl returns often to a line from Nietzsche: "He who has a why to live for can bear with almost any how." In the camps, he observed, prisoners who held on to a future goal, a person waiting for them or a task to finish, endured better than those who lost faith in a future. He recounts how hope tied to a date could be fatal: the chief doctor of his camp drew his attention to a death rate in the week between Christmas 1944 and New Year 1945 higher than ever before, and put it down not to work, food, weather or epidemics but to prisoners losing their naive hope of being home by Christmas. One of his own reasons was to reconstruct the manuscript he had lost on arrival at Auschwitz.
 
 *Why it transcends:* A purpose tied to the future still predicts persistence through hard periods, at work and elsewhere. It is the most practical idea in the book.
 
 ### 5. The existential vacuum · Evolves
 
-In the second part Frankl describes a widespread modern condition he calls the **existential vacuum**: a feeling of emptiness and boredom when no instinct tells people what they have to do and no tradition tells them what they ought to do. It often shows up as "Sunday neurosis," the depression that sets in when the busy week ends and the emptiness becomes visible. People fill the vacuum with the pursuit of power, money or pleasure, which doesn't fill it.
+In the second part Frankl describes a widespread twentieth-century condition he calls the **existential vacuum**, which shows up mainly as boredom. People have lost two guides: no instinct tells them what they have to do, and no tradition tells them what they ought to do. One form is "Sunday neurosis," the depression that sets in when the busy week is over and people notice the void in their lives. Sometimes the frustrated will to meaning is replaced by a will to power, whose most primitive form is the will to money, or by a will to pleasure.
 
 *Why it evolves:* The diagnosis holds, but its scale could change. If AI frees time or displaces roles that gave people structure and identity, the vacuum Frankl described becomes a management and policy question, not only a personal one.
 
@@ -137,7 +144,7 @@ When I bring you a setback, a career decision or a team problem: ask what is sti
 
 ## Critiques and caveats
 
-The camp account is one survivor's testimony and has drawn criticism. The literary scholar Lawrence Langer objected to its self-assured tone and to its use of the Holocaust to promote logotherapy, and others have argued that stressing attitude implies those who died had given up, a reading Frankl's own text does not support but does not fully rule out; he himself wrote that survivors owed their return to luck and that the best of the prisoners did not come back. There is also a survivorship problem: survival in the camps depended overwhelmingly on luck and circumstance, not outlook. Logotherapy has a thinner research base than mainstream therapies. The book is a moral argument more than a study.
+The camp account is one survivor's testimony and has drawn criticism. The scholar Lawrence Langer, in *Versions of Survival* (1982), argued that the book's search for meaning in the camps distorts the nature of the experience; others have objected to its linking of the Holocaust with the promotion of logotherapy, or argued that stressing attitude implies those who died had given up, a reading Frankl's own text does not support but does not fully rule out; he himself wrote that survivors owed their return to luck and that the best of the prisoners did not come back. There is also a survivorship problem: survival in the camps depended overwhelmingly on luck and circumstance, not outlook. Logotherapy has a thinner research base than mainstream therapies. The book is a moral argument more than a study.
 
 ## Read it or skip it
 
@@ -151,7 +158,7 @@ The camp account is one survivor's testimony and has drawn criticism. The litera
 
 ## How this summary was made
 
-Written by Claude (Anthropic) from its knowledge of the book plus the sources listed above, then checked on 2026-10-17 by a separate review pass, which found no factual errors and corrected the Nietzsche quote, the 1946 edition's structure and the definition of the existential vacuum. Medium confidence: the full text of Part Two and Lawrence Langer's critique were not available online, so two details rest on excerpts. Not a substitute for reading the book.
+Written by Claude (Anthropic) from its knowledge of the book plus the sources listed above, then checked on 2026-10-17 by a separate review pass, which found no factual errors and corrected the Nietzsche quote, the 1946 edition's structure and the definition of the existential vacuum. A follow-up check on 2026-11-28 confirmed the two passages left open (the existential vacuum and the camp doctor's Christmas 1944 observation) against published excerpts of the Lasch translation and adjusted their wording to match, and restated the Lawrence Langer critique to what published accounts of it support. High confidence. Not a substitute for reading the book.
 
 ## How it made the list
 
